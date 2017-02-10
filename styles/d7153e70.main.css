@@ -1,0 +1,2136 @@
+@charset "UTF-8";
+
+
+/* mix of */
+
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+/*** & added http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation ***/
+
+/*** & added https://www.paulirish.com/2012/box-sizing-border-box-ftw/ ***/
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 3. Global box sizing, because a) I always end up setting it  & b) * isn't actually slower (apparently) 
+ * 3.1 Allows more easily for overrides if req'd 
+ */
+
+@import url("//hello.myfonts.net/count/31df0e");
+
+@import url("//hello.myfonts.net/count/31dfbe");
+
+@import url("//hello.myfonts.net/count/31ee42");
+
+@import url("//hello.myfonts.net/count/31df0e");
+
+@import url("//hello.myfonts.net/count/31dfbe");
+
+@import url("//hello.myfonts.net/count/31ee42");
+
+/* line 13, ../../app/styles/base/_normalize.scss */
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  font: 16px/1;
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 3 */
+}
+
+/* line 22, ../../app/styles/base/_normalize.scss */
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  /* 3.1 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+/* line 30, ../../app/styles/base/_normalize.scss */
+
+body {
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+
+/* line 45, ../../app/styles/base/_normalize.scss */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary,
+li {
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+/* line 65, ../../app/styles/base/_normalize.scss */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+/* line 76, ../../app/styles/base/_normalize.scss */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+/* line 85, ../../app/styles/base/_normalize.scss */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+
+/* line 94, ../../app/styles/base/_normalize.scss */
+
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/* line 102, ../../app/styles/base/_normalize.scss */
+
+a,
+button {
+  color: inherit;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+/* line 114, ../../app/styles/base/_normalize.scss */
+
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+  text-decoration: none;
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+
+/* line 125, ../../app/styles/base/_normalize.scss */
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* line 131, ../../app/styles/base/_normalize.scss */
+
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+/* line 140, ../../app/styles/base/_normalize.scss */
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 144, ../../app/styles/base/_normalize.scss */
+
+:focus {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+/* line 156, ../../app/styles/base/_normalize.scss */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+/* line 165, ../../app/styles/base/_normalize.scss */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+/* line 176, ../../app/styles/base/_normalize.scss */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 181, ../../app/styles/base/_normalize.scss */
+
+h2,
+h3,
+h4 {
+  font-size: inherit;
+}
+
+/* line 187, ../../app/styles/base/_normalize.scss */
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+/* line 205, ../../app/styles/base/_normalize.scss */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+/* line 214, ../../app/styles/base/_normalize.scss */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 222, ../../app/styles/base/_normalize.scss */
+
+sub {
+  bottom: -0.25em;
+}
+
+/* line 226, ../../app/styles/base/_normalize.scss */
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+/* line 237, ../../app/styles/base/_normalize.scss */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+/* line 248, ../../app/styles/base/_normalize.scss */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/**
+ * Mixin scrollbar
+ */
+
+/* line 259, ../../app/styles/base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 265, ../../app/styles/base/_utils.scss */
+
+body.grid:before {
+  background-image: -webkit-linear-gradient(left, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  background-image: linear-gradient(to right, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  opacity: 0.2;
+}
+
+/* line 270, ../../app/styles/base/_utils.scss */
+
+body.grid:after {
+  background-image: -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 100% 1rem;
+  background-position: 0px 0px;
+}
+
+/* line 276, ../../app/styles/base/_utils.scss */
+
+body.grid.infront:before,
+body.grid.infront:after {
+  z-index: 100000;
+}
+
+/**
+ * Mixin scrollbar
+ */
+
+/* line 259, ../../app/styles/base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 265, ../../app/styles/base/_utils.scss */
+
+body.grid:before {
+  background-image: -webkit-linear-gradient(left, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  background-image: linear-gradient(to right, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  opacity: 0.2;
+}
+
+/* line 270, ../../app/styles/base/_utils.scss */
+
+body.grid:after {
+  background-image: -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 100% 1rem;
+  background-position: 0px 0px;
+}
+
+/* line 276, ../../app/styles/base/_utils.scss */
+
+body.grid.infront:before,
+body.grid.infront:after {
+  z-index: 100000;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3268366, 2016-08-14T11:52:16-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Gilroy-ExtraBold by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/gilroy/extra-bold/
+ * Copyright: Copyright &#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3268366
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@font-face {
+  font-family: 'Gilroy-Extra-Bold';
+  src: url("../fonts/Gilroy-Extra-Bold/fa3f8cf5.31DF0E_0_0.eot");
+  src: url("../fonts/Gilroy-Extra-Bold/fa3f8cf5.31DF0E_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Extra-Bold/7806ad10.31DF0E_0_0.woff2") format("woff2"), url("../fonts/Gilroy-Extra-Bold/5e4673c6.31DF0E_0_0.woff") format("woff"), url("../fonts/Gilroy-Extra-Bold/4e2cdec0.31DF0E_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("../fonts/Gilroy-Bold/a591e7bb.31DFBE_0_0.eot");
+  src: url("../fonts/Gilroy-Bold/a591e7bb.31DFBE_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold/b7e4b43b.31DFBE_0_0.woff2") format("woff2"), url("../fonts/Gilroy-Bold/6dcb1d59.31DFBE_0_0.woff") format("woff"), url("../fonts/Gilroy-Bold/81a4d034.31DFBE_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url("../fonts/Gilroy-Heavy/2a6f5db9.31EE42_0_0.eot");
+  src: url("../fonts/Gilroy-Heavy/2a6f5db9.31EE42_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Heavy/21631c03.31EE42_0_0.woff2") format("woff2"), url("../fonts/Gilroy-Heavy/03b364ad.31EE42_0_0.woff") format("woff"), url("../fonts/Gilroy-Heavy/00fb587f.31EE42_0_0.ttf") format("truetype");
+}
+
+/* typeset.css */
+
+/* https://blot.im/typeset/ */
+
+/* Small caps */
+
+/* line 248, ../../app/styles/base/_type.scss */
+
+.small-caps {
+  font-family: 'Charter SC', serif;
+}
+
+/* Double quote (") marks */
+
+/* line 251, ../../app/styles/base/_type.scss */
+
+.pull-double {
+  margin-left: -.38em;
+}
+
+/* line 252, ../../app/styles/base/_type.scss */
+
+.push-double {
+  margin-right: .38em;
+}
+
+/* Single quote (') marks */
+
+/* line 255, ../../app/styles/base/_type.scss */
+
+.pull-single {
+  margin-left: -.15em;
+}
+
+/* line 256, ../../app/styles/base/_type.scss */
+
+.push-single {
+  margin-right: .15em;
+}
+
+/* Optical margin alignment for particular letters */
+
+/* line 259, ../../app/styles/base/_type.scss */
+
+.pull-T,
+.pull-V,
+.pull-W,
+.pull-Y {
+  margin-left: -0.07em;
+}
+
+/* line 260, ../../app/styles/base/_type.scss */
+
+.push-T,
+.push-V,
+.push-W,
+.push-Y {
+  margin-right: 0.07em;
+}
+
+/* line 262, ../../app/styles/base/_type.scss */
+
+.pull-O,
+.pull-C,
+.pull-o,
+.pull-c {
+  margin-left: -0.04em;
+}
+
+/* line 263, ../../app/styles/base/_type.scss */
+
+.push-O,
+.push-C,
+.push-o,
+.push-c {
+  margin-right: 0.04em;
+}
+
+/* line 265, ../../app/styles/base/_type.scss */
+
+.pull-A {
+  margin-left: -0.03em;
+}
+
+/* line 266, ../../app/styles/base/_type.scss */
+
+.push-A {
+  margin-right: 0.03em;
+}
+
+/* line 8, ../../app/styles/module/_logo.scss */
+
+.logo-container {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  left: 0;
+  width: -webkit-calc(100vw /12);
+  width: calc(100vw /12);
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: left;
+  transition-property: left;
+}
+
+/* line 20, ../../app/styles/module/_logo.scss */
+
+html:not(.loaded) .logo-container {
+  left: -webkit-calc(100vw /12 * -1);
+  left: calc(100vw /12 * -1);
+}
+
+/* line 33, ../../app/styles/module/_logo.scss */
+
+.logo-part {
+  fill: #f4373b;
+}
+
+/* line 33, ../../app/styles/module/_logo.scss */
+
+.intro .logo-part {
+  fill: #f4373b;
+}
+
+/* line 33, ../../app/styles/module/_logo.scss */
+
+.eavis .logo-part {
+  fill: #36e2ae;
+}
+
+/* line 33, ../../app/styles/module/_logo.scss */
+
+.android .logo-part {
+  fill: #00FF8D;
+}
+
+/* line 33, ../../app/styles/module/_logo.scss */
+
+.national-theatre .logo-part {
+  fill: #ff9;
+}
+
+/* line 33, ../../app/styles/module/_logo.scss */
+
+.guardian .logo-part {
+  fill: #FF9500;
+}
+
+/**
+ * Mixin scrollbar
+ */
+
+/* line 259, ../../app/styles/base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 265, ../../app/styles/base/_utils.scss */
+
+body.grid:before {
+  background-image: -webkit-linear-gradient(left, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  background-image: linear-gradient(to right, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  opacity: 0.2;
+}
+
+/* line 270, ../../app/styles/base/_utils.scss */
+
+body.grid:after {
+  background-image: -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 100% 1rem;
+  background-position: 0px 0px;
+}
+
+/* line 276, ../../app/styles/base/_utils.scss */
+
+body.grid.infront:before,
+body.grid.infront:after {
+  z-index: 100000;
+}
+
+/* line 12, ../../app/styles/module/_project-header.scss */
+
+.project-title-unit {
+  position: relative;
+}
+
+/* line 19, ../../app/styles/module/_project-header.scss */
+
+.back-link {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  z-index: 1;
+}
+
+/* line 26, ../../app/styles/module/_project-header.scss */
+
+.back-link svg {
+  fill: currentColor !important;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 33, ../../app/styles/module/_project-header.scss */
+
+.nav-content .back-link {
+  display: none;
+}
+
+/* line 37, ../../app/styles/module/_project-header.scss */
+
+.back-link .icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* line 46, ../../app/styles/module/_project-header.scss */
+
+.intro.body .back-link {
+  color: #f4373b;
+}
+
+/* line 50, ../../app/styles/module/_project-header.scss */
+
+.intro.body .back-link:hover {
+  color: #f4373b;
+}
+
+/* line 46, ../../app/styles/module/_project-header.scss */
+
+.eavis.body .back-link {
+  color: #fff;
+}
+
+/* line 50, ../../app/styles/module/_project-header.scss */
+
+.eavis.body .back-link:hover {
+  color: #36e2ae;
+}
+
+/* line 46, ../../app/styles/module/_project-header.scss */
+
+.android.body .back-link {
+  color: #00FF8D;
+}
+
+/* line 50, ../../app/styles/module/_project-header.scss */
+
+.android.body .back-link:hover {
+  color: #00FF8D;
+}
+
+/* line 46, ../../app/styles/module/_project-header.scss */
+
+.national-theatre.body .back-link {
+  color: #ff9;
+}
+
+/* line 50, ../../app/styles/module/_project-header.scss */
+
+.national-theatre.body .back-link:hover {
+  color: #ff9;
+}
+
+/* line 46, ../../app/styles/module/_project-header.scss */
+
+.guardian.body .back-link {
+  color: #FF9500;
+}
+
+/* line 50, ../../app/styles/module/_project-header.scss */
+
+.guardian.body .back-link:hover {
+  color: #FF9500;
+}
+
+/* line 60, ../../app/styles/module/_project-header.scss */
+
+.project-image {
+  position: absolute;
+  top: 0;
+  right: -webkit-calc(100%/4);
+  right: calc(100%/4);
+  bottom: 2px;
+  left: 16px;
+  z-index: -1;
+  overflow: hidden;
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+}
+
+/* line 68, ../../app/styles/module/_project-header.scss */
+
+.nav-content .project-image {
+  top: 100%;
+  opacity: 0;
+}
+
+/* line 75, ../../app/styles/module/_project-header.scss */
+
+.project-client {
+  position: absolute;
+  bottom: 100%;
+  font-size: 1rem;
+  line-height: 1.25;
+  opacity: 0;
+}
+
+/* line 84, ../../app/styles/module/_project-header.scss */
+
+.project-client[data-logo]:not([data-logo=""]) {
+  font-size: 0;
+}
+
+/* line 87, ../../app/styles/module/_project-header.scss */
+
+.project-client[data-logo]:not([data-logo=""]) img {
+  width: 3rem;
+}
+
+/* line 95, ../../app/styles/module/_project-header.scss */
+
+.project-meta-data {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}
+
+/* line 103, ../../app/styles/module/_project-header.scss */
+
+.phone-link,
+.email-link {
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+}
+
+/* line 108, ../../app/styles/module/_project-header.scss */
+
+.phone-link:hover,
+.phone-link:focus,
+.email-link:hover,
+.email-link:focus {
+  border-bottom: 1px dotted currentColor;
+}
+
+/* line 114, ../../app/styles/module/_project-header.scss */
+
+.project-dates {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0;
+  margin: 0.25rem 0;
+  vertical-align: top;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* line 147, ../../app/styles/base/_type.scss */
+
+.Gilroy-Extra-Bold .project-dates {
+  font-family: Gilroy-Extra-Bold;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+/* line 126, ../../app/styles/module/_project-header.scss */
+
+.project-categories {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0;
+  vertical-align: top;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.5rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+/* line 154, ../../app/styles/base/_utils.scss */
+
+.project-categories > li {
+  display: inline-block;
+}
+
+/* line 157, ../../app/styles/base/_utils.scss */
+
+.project-categories > li:after {
+  content: ",";
+}
+
+/* line 160, ../../app/styles/base/_utils.scss */
+
+.project-categories > li:last-of-type:after {
+  content: "";
+}
+
+/* line 139, ../../app/styles/module/_project-header.scss */
+
+.project-dates ~ .project-categories {
+  margin-left: 0.25rem;
+  width: -webkit-calc(80% - 0.25rem);
+  width: calc(80% - 0.25rem);
+}
+
+/* line 143, ../../app/styles/module/_project-header.scss */
+
+.project-dates.has-date-to ~ .project-categories {
+  width: -webkit-calc(75% - 0.5rem);
+  width: calc(75% - 0.5rem);
+}
+
+/* line 148, ../../app/styles/module/_project-header.scss */
+
+.wordcount {
+  display: none;
+}
+
+/* line 164, ../../app/styles/module/_project-header.scss */
+
+.intro.body #intro .project-meta-data,
+.intro.body #intro .project-client,
+.intro-body .project-meta-data,
+.intro-body .project-client {
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  opacity: 1;
+}
+
+/* line 173, ../../app/styles/module/_project-header.scss */
+
+.intro.body #intro .project-image,
+.intro-body .project-image {
+  -webkit-transition-delay: 450ms;
+  transition-delay: 450ms;
+  opacity: 1;
+  top: 0;
+}
+
+/* line 179, ../../app/styles/module/_project-header.scss */
+
+.intro.body #intro .phone-link,
+.intro.body #intro .email-link,
+.intro.body #intro .project-categories,
+.intro-body .phone-link,
+.intro-body .email-link,
+.intro-body .project-categories {
+  color: #f4373b;
+}
+
+/* line 164, ../../app/styles/module/_project-header.scss */
+
+.eavis.body #eavis .project-meta-data,
+.eavis.body #eavis .project-client,
+.eavis-body .project-meta-data,
+.eavis-body .project-client {
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  opacity: 1;
+}
+
+/* line 173, ../../app/styles/module/_project-header.scss */
+
+.eavis.body #eavis .project-image,
+.eavis-body .project-image {
+  -webkit-transition-delay: 450ms;
+  transition-delay: 450ms;
+  opacity: 1;
+  top: 0;
+}
+
+/* line 179, ../../app/styles/module/_project-header.scss */
+
+.eavis.body #eavis .phone-link,
+.eavis.body #eavis .email-link,
+.eavis.body #eavis .project-categories,
+.eavis-body .phone-link,
+.eavis-body .email-link,
+.eavis-body .project-categories {
+  color: #36e2ae;
+}
+
+/* line 164, ../../app/styles/module/_project-header.scss */
+
+.android.body #android .project-meta-data,
+.android.body #android .project-client,
+.android-body .project-meta-data,
+.android-body .project-client {
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  opacity: 1;
+}
+
+/* line 173, ../../app/styles/module/_project-header.scss */
+
+.android.body #android .project-image,
+.android-body .project-image {
+  -webkit-transition-delay: 450ms;
+  transition-delay: 450ms;
+  opacity: 1;
+  top: 0;
+}
+
+/* line 179, ../../app/styles/module/_project-header.scss */
+
+.android.body #android .phone-link,
+.android.body #android .email-link,
+.android.body #android .project-categories,
+.android-body .phone-link,
+.android-body .email-link,
+.android-body .project-categories {
+  color: #00FF8D;
+}
+
+/* line 164, ../../app/styles/module/_project-header.scss */
+
+.national-theatre.body #national-theatre .project-meta-data,
+.national-theatre.body #national-theatre .project-client,
+.national-theatre-body .project-meta-data,
+.national-theatre-body .project-client {
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  opacity: 1;
+}
+
+/* line 173, ../../app/styles/module/_project-header.scss */
+
+.national-theatre.body #national-theatre .project-image,
+.national-theatre-body .project-image {
+  -webkit-transition-delay: 450ms;
+  transition-delay: 450ms;
+  opacity: 1;
+  top: 0;
+}
+
+/* line 179, ../../app/styles/module/_project-header.scss */
+
+.national-theatre.body #national-theatre .phone-link,
+.national-theatre.body #national-theatre .email-link,
+.national-theatre.body #national-theatre .project-categories,
+.national-theatre-body .phone-link,
+.national-theatre-body .email-link,
+.national-theatre-body .project-categories {
+  color: #ff9;
+}
+
+/* line 164, ../../app/styles/module/_project-header.scss */
+
+.guardian.body #guardian .project-meta-data,
+.guardian.body #guardian .project-client,
+.guardian-body .project-meta-data,
+.guardian-body .project-client {
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  opacity: 1;
+}
+
+/* line 173, ../../app/styles/module/_project-header.scss */
+
+.guardian.body #guardian .project-image,
+.guardian-body .project-image {
+  -webkit-transition-delay: 450ms;
+  transition-delay: 450ms;
+  opacity: 1;
+  top: 0;
+}
+
+/* line 179, ../../app/styles/module/_project-header.scss */
+
+.guardian.body #guardian .phone-link,
+.guardian.body #guardian .email-link,
+.guardian.body #guardian .project-categories,
+.guardian-body .phone-link,
+.guardian-body .email-link,
+.guardian-body .project-categories {
+  color: #FF9500;
+}
+
+/**
+ * Mixin scrollbar
+ */
+
+/* line 259, ../../app/styles/base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 265, ../../app/styles/base/_utils.scss */
+
+body.grid:before {
+  background-image: -webkit-linear-gradient(left, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  background-image: linear-gradient(to right, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  opacity: 0.2;
+}
+
+/* line 270, ../../app/styles/base/_utils.scss */
+
+body.grid:after {
+  background-image: -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 100% 1rem;
+  background-position: 0px 0px;
+}
+
+/* line 276, ../../app/styles/base/_utils.scss */
+
+body.grid.infront:before,
+body.grid.infront:after {
+  z-index: 100000;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3268366, 2016-08-14T11:52:16-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Gilroy-ExtraBold by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/gilroy/extra-bold/
+ * Copyright: Copyright &#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3268366
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@font-face {
+  font-family: 'Gilroy-Extra-Bold';
+  src: url("../fonts/Gilroy-Extra-Bold/fa3f8cf5.31DF0E_0_0.eot");
+  src: url("../fonts/Gilroy-Extra-Bold/fa3f8cf5.31DF0E_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Extra-Bold/7806ad10.31DF0E_0_0.woff2") format("woff2"), url("../fonts/Gilroy-Extra-Bold/5e4673c6.31DF0E_0_0.woff") format("woff"), url("../fonts/Gilroy-Extra-Bold/4e2cdec0.31DF0E_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("../fonts/Gilroy-Bold/a591e7bb.31DFBE_0_0.eot");
+  src: url("../fonts/Gilroy-Bold/a591e7bb.31DFBE_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold/b7e4b43b.31DFBE_0_0.woff2") format("woff2"), url("../fonts/Gilroy-Bold/6dcb1d59.31DFBE_0_0.woff") format("woff"), url("../fonts/Gilroy-Bold/81a4d034.31DFBE_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url("../fonts/Gilroy-Heavy/2a6f5db9.31EE42_0_0.eot");
+  src: url("../fonts/Gilroy-Heavy/2a6f5db9.31EE42_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Heavy/21631c03.31EE42_0_0.woff2") format("woff2"), url("../fonts/Gilroy-Heavy/03b364ad.31EE42_0_0.woff") format("woff"), url("../fonts/Gilroy-Heavy/00fb587f.31EE42_0_0.ttf") format("truetype");
+}
+
+/* typeset.css */
+
+/* https://blot.im/typeset/ */
+
+/* Small caps */
+
+/* line 248, ../../app/styles/base/_type.scss */
+
+.small-caps {
+  font-family: 'Charter SC', serif;
+}
+
+/* Double quote (") marks */
+
+/* line 251, ../../app/styles/base/_type.scss */
+
+.pull-double {
+  margin-left: -.38em;
+}
+
+/* line 252, ../../app/styles/base/_type.scss */
+
+.push-double {
+  margin-right: .38em;
+}
+
+/* Single quote (') marks */
+
+/* line 255, ../../app/styles/base/_type.scss */
+
+.pull-single {
+  margin-left: -.15em;
+}
+
+/* line 256, ../../app/styles/base/_type.scss */
+
+.push-single {
+  margin-right: .15em;
+}
+
+/* Optical margin alignment for particular letters */
+
+/* line 259, ../../app/styles/base/_type.scss */
+
+.pull-T,
+.pull-V,
+.pull-W,
+.pull-Y {
+  margin-left: -0.07em;
+}
+
+/* line 260, ../../app/styles/base/_type.scss */
+
+.push-T,
+.push-V,
+.push-W,
+.push-Y {
+  margin-right: 0.07em;
+}
+
+/* line 262, ../../app/styles/base/_type.scss */
+
+.pull-O,
+.pull-C,
+.pull-o,
+.pull-c {
+  margin-left: -0.04em;
+}
+
+/* line 263, ../../app/styles/base/_type.scss */
+
+.push-O,
+.push-C,
+.push-o,
+.push-c {
+  margin-right: 0.04em;
+}
+
+/* line 265, ../../app/styles/base/_type.scss */
+
+.pull-A {
+  margin-left: -0.03em;
+}
+
+/* line 266, ../../app/styles/base/_type.scss */
+
+.push-A {
+  margin-right: 0.03em;
+}
+
+/* line 5, ../../app/styles/layout/_core.scss */
+
+html {
+  margin-right: 0;
+  margin-left: -webkit-calc(100vw - 100%);
+  margin-left: calc(100vw - 100%);
+  font-size: 100%;
+}
+
+/* line 13, ../../app/styles/layout/_core.scss */
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  -webkit-transition-property: color, background;
+  transition-property: color, background;
+  scrollbar-face-color: #42424e;
+  scrollbar-track-color: #7e7e92;
+  text-rendering: optimizeLegibility;
+  -webkit-font-kerning: auto;
+  -moz-font-kerning: auto;
+  font-kerning: auto;
+  -webkit-font-feature-settings: "liga", "dlig";
+  -moz-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+  -webkit-font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+  -moz-font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+  font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+}
+
+/* line 193, ../../app/styles/base/_utils.scss */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* line 198, ../../app/styles/base/_utils.scss */
+
+::-webkit-scrollbar-thumb {
+  background: #42424e;
+}
+
+/* line 203, ../../app/styles/base/_utils.scss */
+
+::-webkit-scrollbar-track {
+  background: #7e7e92;
+}
+
+@media screen and (min-width: 576px) {
+  /* line 36, ../../app/styles/layout/_core.scss */
+
+  html {
+    font-size: 150%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /* line 42, ../../app/styles/layout/_core.scss */
+
+  html {
+    font-size: 150%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 48, ../../app/styles/layout/_core.scss */
+
+  html {
+    font-size: 200%;
+  }
+}
+
+/* line 54, ../../app/styles/layout/_core.scss */
+
+object {
+  pointer-events: none;
+}
+
+/* line 13, ../../app/styles/layout/_page.scss */
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+/* line 139, ../../app/styles/base/_type.scss */
+
+.Gilroy-Bold .container {
+  font-family: Gilroy-Bold;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+/* line 22, ../../app/styles/layout/_page.scss */
+
+.page-content,
+.nav-content {
+  position: relative;
+  width: -webkit-calc( 100vw / 12 * 8);
+  width: calc( 100vw / 12 * 8);
+  max-width: 30rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 42, ../../app/styles/layout/_page.scss */
+
+.nav-items {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: -webkit-calc( (100vw / 12 * 8 * 6) - (2 * 1rem) );
+  width: calc( (100vw / 12 * 8 * 6) - (2 * 1rem) );
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* kill whitespace */
+  line-height: 0;
+  font-size: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: margin;
+  transition-property: margin;
+}
+
+/* line 62, ../../app/styles/layout/_page.scss */
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: -webkit-calc( 100vw / 12 * 8);
+  width: calc( 100vw / 12 * 8);
+  max-width: 30rem;
+  height: 100vh;
+  margin: 0 1rem;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1rem;
+  overflow: hidden;
+}
+
+/* line 93, ../../app/styles/layout/_page.scss */
+
+.nav-items {
+  margin-left: -webkit-calc( ( -0 * 100% ) - ( 1 * 1rem ) );
+  margin-left: calc( ( -0 * 100% ) - ( 1 * 1rem ) );
+}
+
+/* line 93, ../../app/styles/layout/_page.scss */
+
+.intro .nav-items {
+  margin-left: -webkit-calc( ( -0 * 100% ) - ( 1 * 1rem ) );
+  margin-left: calc( ( -0 * 100% ) - ( 1 * 1rem ) );
+}
+
+/* line 93, ../../app/styles/layout/_page.scss */
+
+.eavis .nav-items {
+  margin-left: -webkit-calc( ( -1 * 100% ) - ( 3 * 1rem ) );
+  margin-left: calc( ( -1 * 100% ) - ( 3 * 1rem ) );
+}
+
+/* line 93, ../../app/styles/layout/_page.scss */
+
+.android .nav-items {
+  margin-left: -webkit-calc( ( -2 * 100% ) - ( 5 * 1rem ) );
+  margin-left: calc( ( -2 * 100% ) - ( 5 * 1rem ) );
+}
+
+/* line 93, ../../app/styles/layout/_page.scss */
+
+.national-theatre .nav-items {
+  margin-left: -webkit-calc( ( -3 * 100% ) - ( 7 * 1rem ) );
+  margin-left: calc( ( -3 * 100% ) - ( 7 * 1rem ) );
+}
+
+/* line 93, ../../app/styles/layout/_page.scss */
+
+.guardian .nav-items {
+  margin-left: -webkit-calc( ( -4 * 100% ) - ( 9 * 1rem ) );
+  margin-left: calc( ( -4 * 100% ) - ( 9 * 1rem ) );
+}
+
+/* line 108, ../../app/styles/layout/_page.scss */
+
+.project-title {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin-top: 33vh;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  line-height: 1.25;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: margin;
+  transition-property: margin;
+}
+
+/* line 147, ../../app/styles/base/_type.scss */
+
+.Gilroy-Extra-Bold .project-title {
+  font-family: Gilroy-Extra-Bold;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+/* line 125, ../../app/styles/layout/_page.scss */
+
+.intro.body .project-title {
+  color: #f4373b;
+}
+
+/* line 125, ../../app/styles/layout/_page.scss */
+
+.eavis.body .project-title {
+  color: #fff;
+}
+
+/* line 125, ../../app/styles/layout/_page.scss */
+
+.android.body .project-title {
+  color: #00FF8D;
+}
+
+/* line 125, ../../app/styles/layout/_page.scss */
+
+.national-theatre.body .project-title {
+  color: #ff9;
+}
+
+/* line 125, ../../app/styles/layout/_page.scss */
+
+.guardian.body .project-title {
+  color: #FF9500;
+}
+
+/* line 133, ../../app/styles/layout/_page.scss */
+
+.project-title:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid currentColor;
+  opacity: 0.25;
+}
+
+/* line 142, ../../app/styles/layout/_page.scss */
+
+.project-intro {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 9rem;
+  margin-top: 101vh;
+  overflow: hidden;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: margin;
+  transition-property: margin;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: 0;
+  font-weight: 800;
+}
+
+/* line 139, ../../app/styles/base/_type.scss */
+
+.Gilroy-Bold .project-intro {
+  font-family: Gilroy-Bold;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+/* line 161, ../../app/styles/layout/_page.scss */
+
+.index-content {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+/* line 167, ../../app/styles/layout/_page.scss */
+
+.nav-content,
+.page-content {
+  opacity: 0;
+  display: none;
+}
+
+/* line 173, ../../app/styles/layout/_page.scss */
+
+.loaded .page-transition .nav-content,
+.loaded .page-transition .page-content {
+  display: block;
+}
+
+/* line 179, ../../app/styles/layout/_page.scss */
+
+.loaded .nav-body .nav-content,
+.loaded .info-body .info-content,
+.loaded .work-body .work-content {
+  opacity: 1;
+  display: block;
+}
+
+/* line 192, ../../app/styles/layout/_page.scss */
+
+:target .project-intro,
+.page-transition .page-content .project-intro,
+.info-body .page-content .project-intro,
+.work-body .page-content .project-intro {
+  margin-top: 2rem;
+}
+
+/* line 203, ../../app/styles/layout/_page.scss */
+
+.intro.body .nav-item-intro .project-intro {
+  margin-top: 2rem;
+}
+
+/* line 203, ../../app/styles/layout/_page.scss */
+
+.eavis.body .nav-item-eavis .project-intro {
+  margin-top: 2rem;
+}
+
+/* line 203, ../../app/styles/layout/_page.scss */
+
+.android.body .nav-item-android .project-intro {
+  margin-top: 2rem;
+}
+
+/* line 203, ../../app/styles/layout/_page.scss */
+
+.national-theatre.body .nav-item-national-theatre .project-intro {
+  margin-top: 2rem;
+}
+
+/* line 203, ../../app/styles/layout/_page.scss */
+
+.guardian.body .nav-item-guardian .project-intro {
+  margin-top: 2rem;
+}
+
+/* line 211, ../../app/styles/layout/_page.scss */
+
+.info-body.page-transition .page-content .project-title,
+.work-body.page-transition .page-content .project-title {
+  margin-top: 33vh;
+}
+
+/* line 216, ../../app/styles/layout/_page.scss */
+
+.info-body .page-content .project-title,
+.work-body .page-content .project-title {
+  margin-top: 2rem;
+}
+
+/* line 222, ../../app/styles/layout/_page.scss */
+
+[data-trans-in="nav"] .nav-content,
+[data-trans-in="work"] .work-content,
+[data-trans-in="work"] .work-content .project-title,
+[data-trans-in="info"] .info-content,
+[data-trans-in="info"] .info-content .project-title {
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+}
+
+/* line 231, ../../app/styles/layout/_page.scss */
+
+[data-trans-out="nav"] .nav-content,
+[data-trans-out="work"] .work-content,
+[data-trans-out="work"] .work-content .project-title,
+[data-trans-out="info"] .info-content,
+[data-trans-out="info"] .info-content .project-title {
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 242, ../../app/styles/layout/_page.scss */
+
+.project-content-introduction,
+.project-content-para {
+  margin: 1rem 0;
+  max-width: 28em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: 0;
+  font-weight: 800;
+  line-height: 1;
+}
+
+/* line 139, ../../app/styles/base/_type.scss */
+
+.Gilroy-Bold .project-content-introduction,
+.Gilroy-Bold
+.project-content-para {
+  font-family: Gilroy-Bold;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+/* line 254, ../../app/styles/layout/_page.scss */
+
+.project-load-content {
+  position: absolute;
+  bottom: -8rem;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  z-index: 1;
+  width: 100%;
+  height: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 2rem;
+  text-align: center;
+}
+
+/* line 147, ../../app/styles/base/_type.scss */
+
+.Gilroy-Extra-Bold .project-load-content {
+  font-family: Gilroy-Extra-Bold;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 283, ../../app/styles/layout/_page.scss */
+
+:target .project-load-content {
+  bottom: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 291, ../../app/styles/layout/_page.scss */
+
+.intro.body .nav-item-intro .project-load-content {
+  bottom: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 291, ../../app/styles/layout/_page.scss */
+
+.eavis.body .nav-item-eavis .project-load-content {
+  bottom: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 291, ../../app/styles/layout/_page.scss */
+
+.android.body .nav-item-android .project-load-content {
+  bottom: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 291, ../../app/styles/layout/_page.scss */
+
+.national-theatre.body .nav-item-national-theatre .project-load-content {
+  bottom: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 291, ../../app/styles/layout/_page.scss */
+
+.guardian.body .nav-item-guardian .project-load-content {
+  bottom: 0;
+  -webkit-transition: 300ms 300ms;
+  transition: 300ms 300ms;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+/* line 297, ../../app/styles/layout/_page.scss */
+
+.page-transition :target .project-load-content,
+.page-transition.body .nav-item .project-load-content {
+  bottom: -8rem;
+}
+
+/* line 302, ../../app/styles/layout/_page.scss */
+
+.project-load-content:before {
+  content: ' ';
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  z-index: -1;
+  background-image: -webkit-linear-gradient(top, transparent, currentColor 50%);
+  background-image: linear-gradient(to bottom, transparent, currentColor 50%);
+}
+
+/* line 320, ../../app/styles/layout/_page.scss */
+
+.index-body {
+  background-color: #bbc0d0;
+  color: #42424e;
+}
+
+/* line 338, ../../app/styles/layout/_page.scss */
+
+-body,
+.body {
+  background-color: #bbc0d0;
+  color: #42424e;
+}
+
+/* line 344, ../../app/styles/layout/_page.scss */
+
+.project-load-content {
+  color: #f4373b;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(244, 55, 59, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 353, ../../app/styles/layout/_page.scss */
+
+.project-load-content:before {
+  color: #bbc0d0;
+}
+
+/* line 357, ../../app/styles/layout/_page.scss */
+
+-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 338, ../../app/styles/layout/_page.scss */
+
+.intro-body,
+.intro.body {
+  background-color: #bbc0d0;
+  color: #42424e;
+}
+
+/* line 344, ../../app/styles/layout/_page.scss */
+
+.intro .project-load-content {
+  color: #f4373b;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.intro .project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(244, 55, 59, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 353, ../../app/styles/layout/_page.scss */
+
+.intro .project-load-content:before {
+  color: #bbc0d0;
+}
+
+/* line 357, ../../app/styles/layout/_page.scss */
+
+.intro-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 338, ../../app/styles/layout/_page.scss */
+
+.eavis-body,
+.eavis.body {
+  background-color: #222222;
+  color: #fff;
+}
+
+/* line 344, ../../app/styles/layout/_page.scss */
+
+.eavis .project-load-content {
+  color: #36e2ae;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.eavis .project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(54, 226, 174, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 353, ../../app/styles/layout/_page.scss */
+
+.eavis .project-load-content:before {
+  color: #222222;
+}
+
+/* line 357, ../../app/styles/layout/_page.scss */
+
+.eavis-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 338, ../../app/styles/layout/_page.scss */
+
+.android-body,
+.android.body {
+  background-color: #141926;
+  color: #00FF8D;
+}
+
+/* line 344, ../../app/styles/layout/_page.scss */
+
+.android .project-load-content {
+  color: #00FF8D;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.android .project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 255, 141, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 353, ../../app/styles/layout/_page.scss */
+
+.android .project-load-content:before {
+  color: #141926;
+}
+
+/* line 357, ../../app/styles/layout/_page.scss */
+
+.android-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 338, ../../app/styles/layout/_page.scss */
+
+.national-theatre-body,
+.national-theatre.body {
+  background-color: #33f;
+  color: #ff9;
+}
+
+/* line 344, ../../app/styles/layout/_page.scss */
+
+.national-theatre .project-load-content {
+  color: #ff9;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.national-theatre .project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 153, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 353, ../../app/styles/layout/_page.scss */
+
+.national-theatre .project-load-content:before {
+  color: #33f;
+}
+
+/* line 357, ../../app/styles/layout/_page.scss */
+
+.national-theatre-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 338, ../../app/styles/layout/_page.scss */
+
+.guardian-body,
+.guardian.body {
+  background-color: #000E3E;
+  color: #FF9500;
+}
+
+/* line 344, ../../app/styles/layout/_page.scss */
+
+.guardian .project-load-content {
+  color: #FF9500;
+}
+
+/* line 170, ../../app/styles/base/_utils.scss */
+
+.guardian .project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 149, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 353, ../../app/styles/layout/_page.scss */
+
+.guardian .project-load-content:before {
+  color: #000E3E;
+}
+
+/* line 357, ../../app/styles/layout/_page.scss */
+
+.guardian-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 1, ../../app/styles/layout/case-studies/_eavis.scss */
+
+.eavis.project-title {
+  -webkit-transform: translateX(-0.2rem);
+  transform: translateX(-0.2rem);
+}
+
+/**
+ * Mixin scrollbar
+ */
+
+/* line 259, ../../app/styles/base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 265, ../../app/styles/base/_utils.scss */
+
+body.grid:before {
+  background-image: -webkit-linear-gradient(left, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  background-image: linear-gradient(to right, #f00 0%, #f00 8.33333%, transparent 8.33333%, transparent 16.66667%, #f00 16.66667%, #f00 25%, transparent 25%, transparent 33.33333%, #f00 33.33333%, #f00 41.66667%, transparent 41.66667%, transparent 50%, #f00 50%, #f00 58.33333%, transparent 58.33333%, transparent 66.66667%, #f00 66.66667%, #f00 75%, transparent 75%, transparent 83.33333%, #f00 83.33333%, #f00 91.66667%, transparent 91.66667%);
+  opacity: 0.2;
+}
+
+/* line 270, ../../app/styles/base/_utils.scss */
+
+body.grid:after {
+  background-image: -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 100% 1rem;
+  background-position: 0px 0px;
+}
+
+/* line 276, ../../app/styles/base/_utils.scss */
+
+body.grid.infront:before,
+body.grid.infront:after {
+  z-index: 100000;
+}
+
+/* line 3, ../../app/styles/layout/_controls.scss */
+
+.nav-content .controls {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: absolute;
+  top: 0;
+}
+
+/* line 8, ../../app/styles/layout/_controls.scss */
+
+.nav-content .controls .control {
+  width: -webkit-calc(100vw / 12);
+  width: calc(100vw / 12);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background-color: #000;
+  opacity: 0;
+  border: 0;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  font-size: 0;
+}
+
+/* line 22, ../../app/styles/layout/_controls.scss */
+
+.nav-content .controls .control:hover,
+.nav-content .controls .control:focus {
+  opacity: 0.1;
+}
+
+/* line 27, ../../app/styles/layout/_controls.scss */
+
+.nav-content .controls .control-next {
+  right: 0;
+}
+
+/* line 31, ../../app/styles/layout/_controls.scss */
+
+.nav-content .controls .control-previous {
+  left: 0;
+}
