@@ -452,7 +452,7 @@ body.grid.infront:after {
 
 /* Small caps */
 
-/* line 248, ../../app/styles/base/_type.scss */
+/* line 250, ../../app/styles/base/_type.scss */
 
 .small-caps {
   font-family: 'Charter SC', serif;
@@ -460,13 +460,13 @@ body.grid.infront:after {
 
 /* Double quote (") marks */
 
-/* line 251, ../../app/styles/base/_type.scss */
+/* line 253, ../../app/styles/base/_type.scss */
 
 .pull-double {
   margin-left: -.38em;
 }
 
-/* line 252, ../../app/styles/base/_type.scss */
+/* line 254, ../../app/styles/base/_type.scss */
 
 .push-double {
   margin-right: .38em;
@@ -474,13 +474,13 @@ body.grid.infront:after {
 
 /* Single quote (') marks */
 
-/* line 255, ../../app/styles/base/_type.scss */
+/* line 257, ../../app/styles/base/_type.scss */
 
 .pull-single {
   margin-left: -.15em;
 }
 
-/* line 256, ../../app/styles/base/_type.scss */
+/* line 258, ../../app/styles/base/_type.scss */
 
 .push-single {
   margin-right: .15em;
@@ -488,7 +488,7 @@ body.grid.infront:after {
 
 /* Optical margin alignment for particular letters */
 
-/* line 259, ../../app/styles/base/_type.scss */
+/* line 261, ../../app/styles/base/_type.scss */
 
 .pull-T,
 .pull-V,
@@ -497,7 +497,7 @@ body.grid.infront:after {
   margin-left: -0.07em;
 }
 
-/* line 260, ../../app/styles/base/_type.scss */
+/* line 262, ../../app/styles/base/_type.scss */
 
 .push-T,
 .push-V,
@@ -506,7 +506,7 @@ body.grid.infront:after {
   margin-right: 0.07em;
 }
 
-/* line 262, ../../app/styles/base/_type.scss */
+/* line 264, ../../app/styles/base/_type.scss */
 
 .pull-O,
 .pull-C,
@@ -515,7 +515,7 @@ body.grid.infront:after {
   margin-left: -0.04em;
 }
 
-/* line 263, ../../app/styles/base/_type.scss */
+/* line 265, ../../app/styles/base/_type.scss */
 
 .push-O,
 .push-C,
@@ -524,13 +524,13 @@ body.grid.infront:after {
   margin-right: 0.04em;
 }
 
-/* line 265, ../../app/styles/base/_type.scss */
+/* line 267, ../../app/styles/base/_type.scss */
 
 .pull-A {
   margin-left: -0.03em;
 }
 
-/* line 266, ../../app/styles/base/_type.scss */
+/* line 268, ../../app/styles/base/_type.scss */
 
 .push-A {
   margin-right: 0.03em;
@@ -646,8 +646,8 @@ body.grid.infront:after {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   z-index: 1;
 }
 
@@ -758,7 +758,7 @@ body.grid.infront:after {
 
 .project-client {
   position: absolute;
-  bottom: 100%;
+  bottom: 120%;
   font-size: 1rem;
   line-height: 1.25;
   opacity: 0;
@@ -824,7 +824,7 @@ body.grid.infront:after {
   text-transform: uppercase;
 }
 
-/* line 147, ../../app/styles/base/_type.scss */
+/* line 149, ../../app/styles/base/_type.scss */
 
 .Gilroy-Extra-Bold .project-dates {
   font-family: Gilroy-Extra-Bold;
@@ -1145,7 +1145,7 @@ body.grid.infront:after {
 
 /* Small caps */
 
-/* line 248, ../../app/styles/base/_type.scss */
+/* line 250, ../../app/styles/base/_type.scss */
 
 .small-caps {
   font-family: 'Charter SC', serif;
@@ -1153,13 +1153,13 @@ body.grid.infront:after {
 
 /* Double quote (") marks */
 
-/* line 251, ../../app/styles/base/_type.scss */
+/* line 253, ../../app/styles/base/_type.scss */
 
 .pull-double {
   margin-left: -.38em;
 }
 
-/* line 252, ../../app/styles/base/_type.scss */
+/* line 254, ../../app/styles/base/_type.scss */
 
 .push-double {
   margin-right: .38em;
@@ -1167,13 +1167,13 @@ body.grid.infront:after {
 
 /* Single quote (') marks */
 
-/* line 255, ../../app/styles/base/_type.scss */
+/* line 257, ../../app/styles/base/_type.scss */
 
 .pull-single {
   margin-left: -.15em;
 }
 
-/* line 256, ../../app/styles/base/_type.scss */
+/* line 258, ../../app/styles/base/_type.scss */
 
 .push-single {
   margin-right: .15em;
@@ -1181,7 +1181,7 @@ body.grid.infront:after {
 
 /* Optical margin alignment for particular letters */
 
-/* line 259, ../../app/styles/base/_type.scss */
+/* line 261, ../../app/styles/base/_type.scss */
 
 .pull-T,
 .pull-V,
@@ -1190,7 +1190,7 @@ body.grid.infront:after {
   margin-left: -0.07em;
 }
 
-/* line 260, ../../app/styles/base/_type.scss */
+/* line 262, ../../app/styles/base/_type.scss */
 
 .push-T,
 .push-V,
@@ -1199,7 +1199,7 @@ body.grid.infront:after {
   margin-right: 0.07em;
 }
 
-/* line 262, ../../app/styles/base/_type.scss */
+/* line 264, ../../app/styles/base/_type.scss */
 
 .pull-O,
 .pull-C,
@@ -1208,7 +1208,7 @@ body.grid.infront:after {
   margin-left: -0.04em;
 }
 
-/* line 263, ../../app/styles/base/_type.scss */
+/* line 265, ../../app/styles/base/_type.scss */
 
 .push-O,
 .push-C,
@@ -1217,13 +1217,13 @@ body.grid.infront:after {
   margin-right: 0.04em;
 }
 
-/* line 265, ../../app/styles/base/_type.scss */
+/* line 267, ../../app/styles/base/_type.scss */
 
 .pull-A {
   margin-left: -0.03em;
 }
 
-/* line 266, ../../app/styles/base/_type.scss */
+/* line 268, ../../app/styles/base/_type.scss */
 
 .push-A {
   margin-right: 0.03em;
@@ -1315,7 +1315,7 @@ object {
 /* line 13, ../../app/styles/layout/_page.scss */
 
 .container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -1326,7 +1326,7 @@ object {
   letter-spacing: 0;
 }
 
-/* line 139, ../../app/styles/base/_type.scss */
+/* line 141, ../../app/styles/base/_type.scss */
 
 .Gilroy-Bold .container {
   font-family: Gilroy-Bold;
@@ -1334,7 +1334,15 @@ object {
   letter-spacing: -0.05em;
 }
 
-/* line 22, ../../app/styles/layout/_page.scss */
+/* line 20, ../../app/styles/layout/_page.scss */
+
+.work-body .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 26, ../../app/styles/layout/_page.scss */
 
 .page-content,
 .nav-content {
@@ -1352,7 +1360,7 @@ object {
   transition-property: opacity;
 }
 
-/* line 42, ../../app/styles/layout/_page.scss */
+/* line 46, ../../app/styles/layout/_page.scss */
 
 .nav-items {
   -moz-box-sizing: border-box;
@@ -1371,7 +1379,7 @@ object {
   transition-property: margin;
 }
 
-/* line 62, ../../app/styles/layout/_page.scss */
+/* line 66, ../../app/styles/layout/_page.scss */
 
 .nav-item {
   position: relative;
@@ -1389,49 +1397,49 @@ object {
   overflow: hidden;
 }
 
-/* line 93, ../../app/styles/layout/_page.scss */
+/* line 97, ../../app/styles/layout/_page.scss */
 
 .nav-items {
   margin-left: -webkit-calc( ( -0 * 100% ) - ( 1 * 1rem ) );
   margin-left: calc( ( -0 * 100% ) - ( 1 * 1rem ) );
 }
 
-/* line 93, ../../app/styles/layout/_page.scss */
+/* line 97, ../../app/styles/layout/_page.scss */
 
 .intro .nav-items {
   margin-left: -webkit-calc( ( -0 * 100% ) - ( 1 * 1rem ) );
   margin-left: calc( ( -0 * 100% ) - ( 1 * 1rem ) );
 }
 
-/* line 93, ../../app/styles/layout/_page.scss */
+/* line 97, ../../app/styles/layout/_page.scss */
 
 .eavis .nav-items {
   margin-left: -webkit-calc( ( -1 * 100% ) - ( 3 * 1rem ) );
   margin-left: calc( ( -1 * 100% ) - ( 3 * 1rem ) );
 }
 
-/* line 93, ../../app/styles/layout/_page.scss */
+/* line 97, ../../app/styles/layout/_page.scss */
 
 .android .nav-items {
   margin-left: -webkit-calc( ( -2 * 100% ) - ( 5 * 1rem ) );
   margin-left: calc( ( -2 * 100% ) - ( 5 * 1rem ) );
 }
 
-/* line 93, ../../app/styles/layout/_page.scss */
+/* line 97, ../../app/styles/layout/_page.scss */
 
 .national-theatre .nav-items {
   margin-left: -webkit-calc( ( -3 * 100% ) - ( 7 * 1rem ) );
   margin-left: calc( ( -3 * 100% ) - ( 7 * 1rem ) );
 }
 
-/* line 93, ../../app/styles/layout/_page.scss */
+/* line 97, ../../app/styles/layout/_page.scss */
 
 .guardian .nav-items {
   margin-left: -webkit-calc( ( -4 * 100% ) - ( 9 * 1rem ) );
   margin-left: calc( ( -4 * 100% ) - ( 9 * 1rem ) );
 }
 
-/* line 108, ../../app/styles/layout/_page.scss */
+/* line 112, ../../app/styles/layout/_page.scss */
 
 .project-title {
   -moz-box-sizing: border-box;
@@ -1441,7 +1449,7 @@ object {
   margin-top: 33vh;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 4rem;
-  line-height: 1.25;
+  line-height: 0.75;
   letter-spacing: -0.05em;
   font-weight: 800;
   -webkit-transition: 300ms 300ms;
@@ -1450,7 +1458,7 @@ object {
   transition-property: margin;
 }
 
-/* line 147, ../../app/styles/base/_type.scss */
+/* line 149, ../../app/styles/base/_type.scss */
 
 .Gilroy-Extra-Bold .project-title {
   font-family: Gilroy-Extra-Bold;
@@ -1458,37 +1466,37 @@ object {
   letter-spacing: -0.05em;
 }
 
-/* line 125, ../../app/styles/layout/_page.scss */
+/* line 129, ../../app/styles/layout/_page.scss */
 
 .intro.body .project-title {
   color: #f4373b;
 }
 
-/* line 125, ../../app/styles/layout/_page.scss */
+/* line 129, ../../app/styles/layout/_page.scss */
 
 .eavis.body .project-title {
   color: #fff;
 }
 
-/* line 125, ../../app/styles/layout/_page.scss */
+/* line 129, ../../app/styles/layout/_page.scss */
 
 .android.body .project-title {
   color: #00FF8D;
 }
 
-/* line 125, ../../app/styles/layout/_page.scss */
+/* line 129, ../../app/styles/layout/_page.scss */
 
 .national-theatre.body .project-title {
   color: #ff9;
 }
 
-/* line 125, ../../app/styles/layout/_page.scss */
+/* line 129, ../../app/styles/layout/_page.scss */
 
 .guardian.body .project-title {
   color: #FF9500;
 }
 
-/* line 133, ../../app/styles/layout/_page.scss */
+/* line 137, ../../app/styles/layout/_page.scss */
 
 .project-title:after {
   position: absolute;
@@ -1501,7 +1509,7 @@ object {
   opacity: 0.25;
 }
 
-/* line 142, ../../app/styles/layout/_page.scss */
+/* line 146, ../../app/styles/layout/_page.scss */
 
 .project-intro {
   -moz-box-sizing: border-box;
@@ -1509,6 +1517,7 @@ object {
   width: 100%;
   height: 9rem;
   margin-top: 101vh;
+  padding: 0.025rem;
   overflow: hidden;
   -webkit-transition: 300ms 300ms;
   transition: 300ms 300ms;
@@ -1521,7 +1530,7 @@ object {
   font-weight: 800;
 }
 
-/* line 139, ../../app/styles/base/_type.scss */
+/* line 141, ../../app/styles/base/_type.scss */
 
 .Gilroy-Bold .project-intro {
   font-family: Gilroy-Bold;
@@ -1529,7 +1538,7 @@ object {
   letter-spacing: -0.05em;
 }
 
-/* line 161, ../../app/styles/layout/_page.scss */
+/* line 166, ../../app/styles/layout/_page.scss */
 
 .index-content {
   position: absolute;
@@ -1537,7 +1546,7 @@ object {
   height: 0;
 }
 
-/* line 167, ../../app/styles/layout/_page.scss */
+/* line 172, ../../app/styles/layout/_page.scss */
 
 .nav-content,
 .page-content {
@@ -1545,14 +1554,14 @@ object {
   display: none;
 }
 
-/* line 173, ../../app/styles/layout/_page.scss */
+/* line 178, ../../app/styles/layout/_page.scss */
 
 .loaded .page-transition .nav-content,
 .loaded .page-transition .page-content {
   display: block;
 }
 
-/* line 179, ../../app/styles/layout/_page.scss */
+/* line 184, ../../app/styles/layout/_page.scss */
 
 .loaded .nav-body .nav-content,
 .loaded .info-body .info-content,
@@ -1561,7 +1570,7 @@ object {
   display: block;
 }
 
-/* line 192, ../../app/styles/layout/_page.scss */
+/* line 197, ../../app/styles/layout/_page.scss */
 
 :target .project-intro,
 .page-transition .page-content .project-intro,
@@ -1570,51 +1579,51 @@ object {
   margin-top: 2rem;
 }
 
-/* line 203, ../../app/styles/layout/_page.scss */
+/* line 208, ../../app/styles/layout/_page.scss */
 
 .intro.body .nav-item-intro .project-intro {
   margin-top: 2rem;
 }
 
-/* line 203, ../../app/styles/layout/_page.scss */
+/* line 208, ../../app/styles/layout/_page.scss */
 
 .eavis.body .nav-item-eavis .project-intro {
   margin-top: 2rem;
 }
 
-/* line 203, ../../app/styles/layout/_page.scss */
+/* line 208, ../../app/styles/layout/_page.scss */
 
 .android.body .nav-item-android .project-intro {
   margin-top: 2rem;
 }
 
-/* line 203, ../../app/styles/layout/_page.scss */
+/* line 208, ../../app/styles/layout/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-intro {
   margin-top: 2rem;
 }
 
-/* line 203, ../../app/styles/layout/_page.scss */
+/* line 208, ../../app/styles/layout/_page.scss */
 
 .guardian.body .nav-item-guardian .project-intro {
   margin-top: 2rem;
 }
 
-/* line 211, ../../app/styles/layout/_page.scss */
+/* line 216, ../../app/styles/layout/_page.scss */
 
 .info-body.page-transition .page-content .project-title,
 .work-body.page-transition .page-content .project-title {
   margin-top: 33vh;
 }
 
-/* line 216, ../../app/styles/layout/_page.scss */
+/* line 221, ../../app/styles/layout/_page.scss */
 
 .info-body .page-content .project-title,
 .work-body .page-content .project-title {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
-/* line 222, ../../app/styles/layout/_page.scss */
+/* line 227, ../../app/styles/layout/_page.scss */
 
 [data-trans-in="nav"] .nav-content,
 [data-trans-in="work"] .work-content,
@@ -1625,7 +1634,7 @@ object {
   transition-delay: 0ms;
 }
 
-/* line 231, ../../app/styles/layout/_page.scss */
+/* line 236, ../../app/styles/layout/_page.scss */
 
 [data-trans-out="nav"] .nav-content,
 [data-trans-out="work"] .work-content,
@@ -1636,7 +1645,7 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 242, ../../app/styles/layout/_page.scss */
+/* line 247, ../../app/styles/layout/_page.scss */
 
 .project-content-introduction,
 .project-content-para {
@@ -1650,7 +1659,7 @@ object {
   line-height: 1;
 }
 
-/* line 139, ../../app/styles/base/_type.scss */
+/* line 141, ../../app/styles/base/_type.scss */
 
 .Gilroy-Bold .project-content-introduction,
 .Gilroy-Bold
@@ -1660,7 +1669,7 @@ object {
   letter-spacing: -0.05em;
 }
 
-/* line 254, ../../app/styles/layout/_page.scss */
+/* line 259, ../../app/styles/layout/_page.scss */
 
 .project-load-content {
   position: absolute;
@@ -1681,7 +1690,7 @@ object {
   text-align: center;
 }
 
-/* line 147, ../../app/styles/base/_type.scss */
+/* line 149, ../../app/styles/base/_type.scss */
 
 .Gilroy-Extra-Bold .project-load-content {
   font-family: Gilroy-Extra-Bold;
@@ -1702,7 +1711,7 @@ object {
   left: 0;
 }
 
-/* line 283, ../../app/styles/layout/_page.scss */
+/* line 288, ../../app/styles/layout/_page.scss */
 
 :target .project-load-content {
   bottom: 0;
@@ -1714,7 +1723,7 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 291, ../../app/styles/layout/_page.scss */
+/* line 296, ../../app/styles/layout/_page.scss */
 
 .intro.body .nav-item-intro .project-load-content {
   bottom: 0;
@@ -1726,7 +1735,7 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 291, ../../app/styles/layout/_page.scss */
+/* line 296, ../../app/styles/layout/_page.scss */
 
 .eavis.body .nav-item-eavis .project-load-content {
   bottom: 0;
@@ -1738,7 +1747,7 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 291, ../../app/styles/layout/_page.scss */
+/* line 296, ../../app/styles/layout/_page.scss */
 
 .android.body .nav-item-android .project-load-content {
   bottom: 0;
@@ -1750,7 +1759,7 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 291, ../../app/styles/layout/_page.scss */
+/* line 296, ../../app/styles/layout/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-load-content {
   bottom: 0;
@@ -1762,7 +1771,7 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 291, ../../app/styles/layout/_page.scss */
+/* line 296, ../../app/styles/layout/_page.scss */
 
 .guardian.body .nav-item-guardian .project-load-content {
   bottom: 0;
@@ -1774,14 +1783,14 @@ object {
   transition-delay: 300ms;
 }
 
-/* line 297, ../../app/styles/layout/_page.scss */
+/* line 302, ../../app/styles/layout/_page.scss */
 
 .page-transition :target .project-load-content,
 .page-transition.body .nav-item .project-load-content {
   bottom: -8rem;
 }
 
-/* line 302, ../../app/styles/layout/_page.scss */
+/* line 307, ../../app/styles/layout/_page.scss */
 
 .project-load-content:before {
   content: ' ';
@@ -1798,14 +1807,14 @@ object {
   background-image: linear-gradient(to bottom, transparent, currentColor 50%);
 }
 
-/* line 320, ../../app/styles/layout/_page.scss */
+/* line 325, ../../app/styles/layout/_page.scss */
 
 .index-body {
   background-color: #bbc0d0;
   color: #42424e;
 }
 
-/* line 338, ../../app/styles/layout/_page.scss */
+/* line 343, ../../app/styles/layout/_page.scss */
 
 -body,
 .body {
@@ -1813,7 +1822,7 @@ object {
   color: #42424e;
 }
 
-/* line 344, ../../app/styles/layout/_page.scss */
+/* line 349, ../../app/styles/layout/_page.scss */
 
 .project-load-content {
   color: #f4373b;
@@ -1832,19 +1841,19 @@ object {
   left: 0;
 }
 
-/* line 353, ../../app/styles/layout/_page.scss */
+/* line 358, ../../app/styles/layout/_page.scss */
 
 .project-load-content:before {
   color: #bbc0d0;
 }
 
-/* line 357, ../../app/styles/layout/_page.scss */
+/* line 362, ../../app/styles/layout/_page.scss */
 
 -body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 338, ../../app/styles/layout/_page.scss */
+/* line 343, ../../app/styles/layout/_page.scss */
 
 .intro-body,
 .intro.body {
@@ -1852,7 +1861,7 @@ object {
   color: #42424e;
 }
 
-/* line 344, ../../app/styles/layout/_page.scss */
+/* line 349, ../../app/styles/layout/_page.scss */
 
 .intro .project-load-content {
   color: #f4373b;
@@ -1871,19 +1880,19 @@ object {
   left: 0;
 }
 
-/* line 353, ../../app/styles/layout/_page.scss */
+/* line 358, ../../app/styles/layout/_page.scss */
 
 .intro .project-load-content:before {
   color: #bbc0d0;
 }
 
-/* line 357, ../../app/styles/layout/_page.scss */
+/* line 362, ../../app/styles/layout/_page.scss */
 
 .intro-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 338, ../../app/styles/layout/_page.scss */
+/* line 343, ../../app/styles/layout/_page.scss */
 
 .eavis-body,
 .eavis.body {
@@ -1891,7 +1900,7 @@ object {
   color: #fff;
 }
 
-/* line 344, ../../app/styles/layout/_page.scss */
+/* line 349, ../../app/styles/layout/_page.scss */
 
 .eavis .project-load-content {
   color: #36e2ae;
@@ -1910,19 +1919,19 @@ object {
   left: 0;
 }
 
-/* line 353, ../../app/styles/layout/_page.scss */
+/* line 358, ../../app/styles/layout/_page.scss */
 
 .eavis .project-load-content:before {
   color: #222222;
 }
 
-/* line 357, ../../app/styles/layout/_page.scss */
+/* line 362, ../../app/styles/layout/_page.scss */
 
 .eavis-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 338, ../../app/styles/layout/_page.scss */
+/* line 343, ../../app/styles/layout/_page.scss */
 
 .android-body,
 .android.body {
@@ -1930,7 +1939,7 @@ object {
   color: #00FF8D;
 }
 
-/* line 344, ../../app/styles/layout/_page.scss */
+/* line 349, ../../app/styles/layout/_page.scss */
 
 .android .project-load-content {
   color: #00FF8D;
@@ -1949,19 +1958,19 @@ object {
   left: 0;
 }
 
-/* line 353, ../../app/styles/layout/_page.scss */
+/* line 358, ../../app/styles/layout/_page.scss */
 
 .android .project-load-content:before {
   color: #141926;
 }
 
-/* line 357, ../../app/styles/layout/_page.scss */
+/* line 362, ../../app/styles/layout/_page.scss */
 
 .android-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 338, ../../app/styles/layout/_page.scss */
+/* line 343, ../../app/styles/layout/_page.scss */
 
 .national-theatre-body,
 .national-theatre.body {
@@ -1969,7 +1978,7 @@ object {
   color: #ff9;
 }
 
-/* line 344, ../../app/styles/layout/_page.scss */
+/* line 349, ../../app/styles/layout/_page.scss */
 
 .national-theatre .project-load-content {
   color: #ff9;
@@ -1988,19 +1997,19 @@ object {
   left: 0;
 }
 
-/* line 353, ../../app/styles/layout/_page.scss */
+/* line 358, ../../app/styles/layout/_page.scss */
 
 .national-theatre .project-load-content:before {
   color: #33f;
 }
 
-/* line 357, ../../app/styles/layout/_page.scss */
+/* line 362, ../../app/styles/layout/_page.scss */
 
 .national-theatre-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 338, ../../app/styles/layout/_page.scss */
+/* line 343, ../../app/styles/layout/_page.scss */
 
 .guardian-body,
 .guardian.body {
@@ -2008,7 +2017,7 @@ object {
   color: #FF9500;
 }
 
-/* line 344, ../../app/styles/layout/_page.scss */
+/* line 349, ../../app/styles/layout/_page.scss */
 
 .guardian .project-load-content {
   color: #FF9500;
@@ -2027,13 +2036,13 @@ object {
   left: 0;
 }
 
-/* line 353, ../../app/styles/layout/_page.scss */
+/* line 358, ../../app/styles/layout/_page.scss */
 
 .guardian .project-load-content:before {
   color: #000E3E;
 }
 
-/* line 357, ../../app/styles/layout/_page.scss */
+/* line 362, ../../app/styles/layout/_page.scss */
 
 .guardian-body:not(.page-transition) .nav-content {
   display: none;
