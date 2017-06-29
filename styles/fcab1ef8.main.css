@@ -3127,23 +3127,24 @@ body.grid.infront:after {
 /* line 300, ../../app/styles/04-templates/_page.scss */
 
 .project-section {
+  width: 66.66667vw;
   min-height: 100vh;
   z-index: 0;
 }
 
-/* line 302, ../../app/styles/04-templates/_page.scss */
+/* line 304, ../../app/styles/04-templates/_page.scss */
 
 .project-section:not(:first-of-type) {
   margin-top: 2rem;
 }
 
-/* line 310, ../../app/styles/04-templates/_page.scss */
+/* line 312, ../../app/styles/04-templates/_page.scss */
 
 .project-basics {
   margin-top: 1.75rem;
 }
 
-/* line 314, ../../app/styles/04-templates/_page.scss */
+/* line 316, ../../app/styles/04-templates/_page.scss */
 
 .project-section-header {
   font-family: Helvetica, Arial, sans-serif;
@@ -3162,7 +3163,7 @@ body.grid.infront:after {
   letter-spacing: -0.06em;
 }
 
-/* line 320, ../../app/styles/04-templates/_page.scss */
+/* line 322, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   position: absolute;
@@ -3204,7 +3205,7 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 349, ../../app/styles/04-templates/_page.scss */
+/* line 351, ../../app/styles/04-templates/_page.scss */
 
 :target .project-load-content {
   bottom: 0;
@@ -3216,7 +3217,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 357, ../../app/styles/04-templates/_page.scss */
+/* line 359, ../../app/styles/04-templates/_page.scss */
 
 .intro.body .nav-item-intro .project-load-content {
   bottom: 0;
@@ -3228,7 +3229,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 357, ../../app/styles/04-templates/_page.scss */
+/* line 359, ../../app/styles/04-templates/_page.scss */
 
 .eavis.body .nav-item-eavis .project-load-content {
   bottom: 0;
@@ -3240,7 +3241,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 357, ../../app/styles/04-templates/_page.scss */
+/* line 359, ../../app/styles/04-templates/_page.scss */
 
 .redburn.body .nav-item-redburn .project-load-content {
   bottom: 0;
@@ -3252,7 +3253,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 357, ../../app/styles/04-templates/_page.scss */
+/* line 359, ../../app/styles/04-templates/_page.scss */
 
 .android.body .nav-item-android .project-load-content {
   bottom: 0;
@@ -3264,7 +3265,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 357, ../../app/styles/04-templates/_page.scss */
+/* line 359, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-load-content {
   bottom: 0;
@@ -3276,7 +3277,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 357, ../../app/styles/04-templates/_page.scss */
+/* line 359, ../../app/styles/04-templates/_page.scss */
 
 .guardian.body .nav-item-guardian .project-load-content {
   bottom: 0;
@@ -3288,14 +3289,14 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 363, ../../app/styles/04-templates/_page.scss */
+/* line 365, ../../app/styles/04-templates/_page.scss */
 
 .page-transition :target .project-load-content,
 .page-transition.body .nav-item .project-load-content {
   bottom: -8rem;
 }
 
-/* line 368, ../../app/styles/04-templates/_page.scss */
+/* line 370, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   content: ' ';
@@ -3312,14 +3313,14 @@ body.grid.infront:after {
   background-image: linear-gradient(to bottom, transparent, currentColor 50%);
 }
 
-/* line 386, ../../app/styles/04-templates/_page.scss */
+/* line 388, ../../app/styles/04-templates/_page.scss */
 
 .index-body {
   background-color: #303442;
   color: #9297a7;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 -body,
 .body {
@@ -3327,14 +3328,14 @@ body.grid.infront:after {
   color: #9297a7;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 -body .project-section:not(:first-of-type),
 .body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 -body .project-content-para a,
 .body .project-content-para a {
@@ -3359,14 +3360,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 -body .project-content-para a:hover,
 .body .project-content-para a:hover {
   color: #f4373b;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   color: #f4373b;
@@ -3385,19 +3386,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   color: #303442;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 -body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 .intro-body,
 .intro.body {
@@ -3405,14 +3406,14 @@ body.grid.infront:after {
   color: #9297a7;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 .intro-body .project-section:not(:first-of-type),
 .intro.body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 .intro-body .project-content-para a,
 .intro.body .project-content-para a {
@@ -3437,14 +3438,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 .intro-body .project-content-para a:hover,
 .intro.body .project-content-para a:hover {
   color: #f4373b;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content {
   color: #f4373b;
@@ -3463,19 +3464,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content:before {
   color: #303442;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 .intro-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body,
 .eavis.body {
@@ -3483,14 +3484,14 @@ body.grid.infront:after {
   color: #fff;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section:not(:first-of-type),
 .eavis.body .project-section:not(:first-of-type) {
   background-color: #222222;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a,
 .eavis.body .project-content-para a {
@@ -3515,14 +3516,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a:hover,
 .eavis.body .project-content-para a:hover {
   color: #36e2ae;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content {
   color: #36e2ae;
@@ -3541,19 +3542,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content:before {
   color: #222222;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body,
 .redburn.body {
@@ -3561,14 +3562,14 @@ body.grid.infront:after {
   color: #fff;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section:not(:first-of-type),
 .redburn.body .project-section:not(:first-of-type) {
   background-color: #090909;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-content-para a,
 .redburn.body .project-content-para a {
@@ -3593,14 +3594,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-content-para a:hover,
 .redburn.body .project-content-para a:hover {
   color: #3E8EDE;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content {
   color: #3E8EDE;
@@ -3619,19 +3620,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content:before {
   color: #090909;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 .android-body,
 .android.body {
@@ -3639,14 +3640,14 @@ body.grid.infront:after {
   color: #00FF8D;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section:not(:first-of-type),
 .android.body .project-section:not(:first-of-type) {
   background-color: #141926;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a,
 .android.body .project-content-para a {
@@ -3671,14 +3672,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a:hover,
 .android.body .project-content-para a:hover {
   color: #00FF8D;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content {
   color: #00FF8D;
@@ -3697,19 +3698,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content:before {
   color: #141926;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 .android-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body,
 .national-theatre.body {
@@ -3717,14 +3718,14 @@ body.grid.infront:after {
   color: #ff9;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section:not(:first-of-type),
 .national-theatre.body .project-section:not(:first-of-type) {
   background-color: #33f;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a,
 .national-theatre.body .project-content-para a {
@@ -3749,14 +3750,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a:hover,
 .national-theatre.body .project-content-para a:hover {
   color: #ff9;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content {
   color: #ff9;
@@ -3775,19 +3776,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content:before {
   color: #33f;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 412, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body,
 .guardian.body {
@@ -3795,14 +3796,14 @@ body.grid.infront:after {
   color: #FF9500;
 }
 
-/* line 416, ../../app/styles/04-templates/_page.scss */
+/* line 418, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section:not(:first-of-type),
 .guardian.body .project-section:not(:first-of-type) {
   background-color: #000E3E;
 }
 
-/* line 420, ../../app/styles/04-templates/_page.scss */
+/* line 422, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a,
 .guardian.body .project-content-para a {
@@ -3827,14 +3828,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 441, ../../app/styles/04-templates/_page.scss */
+/* line 443, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a:hover,
 .guardian.body .project-content-para a:hover {
   color: #FF9500;
 }
 
-/* line 447, ../../app/styles/04-templates/_page.scss */
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content {
   color: #FF9500;
@@ -3853,13 +3854,13 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 457, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content:before {
   color: #000E3E;
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 461, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body:not(.page-transition) .nav-content {
   display: none;
