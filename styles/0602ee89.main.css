@@ -3265,95 +3265,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 280, ../../app/styles/04-templates/_page.scss */
-
-.project-content-introduction,
-.project-content-para {
-  margin: 1rem 0;
-  max-width: 28rem;
-}
-
-/* line 288, ../../app/styles/04-templates/_page.scss */
-
-.project-content-introduction {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: 0;
-}
-
-/* line 162, ../../app/styles/00-base/_type.scss */
-
-.Gilroy-Bold .project-content-introduction {
-  font-family: Gilroy-Bold;
-  font-weight: 500;
-  letter-spacing: -0.06em;
-}
-
-/* line 292, ../../app/styles/04-templates/_page.scss */
-
-.project-content-para {
-  font-family: Georgia, Times New Roman, sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 1.255;
-  letter-spacing: 0;
-}
-
-/* line 296, ../../app/styles/04-templates/_page.scss */
-
-.project-content-para:not(:first-of-type) {
-  text-indent: 2rem;
-}
-
-/* line 300, ../../app/styles/04-templates/_page.scss */
-
-.project-content-para * {
-  text-indent: 0;
-}
-
-/* line 306, ../../app/styles/04-templates/_page.scss */
-
-.project-section {
-  width: 66.66667vw;
-  min-height: 100vh;
-  z-index: 0;
-}
-
-/* line 310, ../../app/styles/04-templates/_page.scss */
-
-.project-section:not(:first-of-type) {
-  margin-top: 2rem;
-}
-
-/* line 318, ../../app/styles/04-templates/_page.scss */
-
-.project-basics {
-  margin-top: 1.75rem;
-  min-height: 50vh;
-}
-
-/* line 323, ../../app/styles/04-templates/_page.scss */
-
-.project-section-header {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.8rem;
-  font-weight: 800;
-  line-height: 1.255;
-  letter-spacing: -0.06em;
-  text-transform: uppercase;
-}
-
-/* line 170, ../../app/styles/00-base/_type.scss */
-
-.Gilroy-Extra-Bold .project-section-header {
-  font-family: Gilroy-Extra-Bold;
-  font-weight: 500;
-  letter-spacing: -0.06em;
-}
-
-/* line 329, ../../app/styles/04-templates/_page.scss */
+/* line 284, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   position: absolute;
@@ -3395,7 +3307,7 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 358, ../../app/styles/04-templates/_page.scss */
+/* line 313, ../../app/styles/04-templates/_page.scss */
 
 :target .project-load-content {
   bottom: 0;
@@ -3407,7 +3319,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 366, ../../app/styles/04-templates/_page.scss */
+/* line 321, ../../app/styles/04-templates/_page.scss */
 
 .intro.body .nav-item-intro .project-load-content {
   bottom: 0;
@@ -3419,7 +3331,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 366, ../../app/styles/04-templates/_page.scss */
+/* line 321, ../../app/styles/04-templates/_page.scss */
 
 .eavis.body .nav-item-eavis .project-load-content {
   bottom: 0;
@@ -3431,7 +3343,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 366, ../../app/styles/04-templates/_page.scss */
+/* line 321, ../../app/styles/04-templates/_page.scss */
 
 .redburn.body .nav-item-redburn .project-load-content {
   bottom: 0;
@@ -3443,7 +3355,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 366, ../../app/styles/04-templates/_page.scss */
+/* line 321, ../../app/styles/04-templates/_page.scss */
 
 .android.body .nav-item-android .project-load-content {
   bottom: 0;
@@ -3455,7 +3367,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 366, ../../app/styles/04-templates/_page.scss */
+/* line 321, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-load-content {
   bottom: 0;
@@ -3467,7 +3379,7 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 366, ../../app/styles/04-templates/_page.scss */
+/* line 321, ../../app/styles/04-templates/_page.scss */
 
 .guardian.body .nav-item-guardian .project-load-content {
   bottom: 0;
@@ -3479,14 +3391,14 @@ body.grid.infront:after {
   transition-delay: 300ms;
 }
 
-/* line 372, ../../app/styles/04-templates/_page.scss */
+/* line 327, ../../app/styles/04-templates/_page.scss */
 
 .page-transition :target .project-load-content,
 .page-transition.body .nav-item .project-load-content {
   bottom: -8rem;
 }
 
-/* line 377, ../../app/styles/04-templates/_page.scss */
+/* line 332, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   content: ' ';
@@ -3503,14 +3415,111 @@ body.grid.infront:after {
   background-image: linear-gradient(to bottom, transparent, currentColor 50%);
 }
 
-/* line 395, ../../app/styles/04-templates/_page.scss */
+/* line 350, ../../app/styles/04-templates/_page.scss */
 
 .index-body {
   background-color: #303442;
   color: #9297a7;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 358, ../../app/styles/04-templates/_page.scss */
+
+.project-content-introduction,
+.project-content-para {
+  margin: 1rem 0;
+  max-width: 28rem;
+}
+
+/* line 366, ../../app/styles/04-templates/_page.scss */
+
+.project-content-introduction {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+/* line 162, ../../app/styles/00-base/_type.scss */
+
+.Gilroy-Bold .project-content-introduction {
+  font-family: Gilroy-Bold;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+/* line 370, ../../app/styles/04-templates/_page.scss */
+
+.project-content-para {
+  font-family: Georgia, Times New Roman, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: 0;
+}
+
+/* line 374, ../../app/styles/04-templates/_page.scss */
+
+.project-content-para:not(:first-of-type) {
+  text-indent: 2rem;
+}
+
+/* line 378, ../../app/styles/04-templates/_page.scss */
+
+.project-content-para * {
+  text-indent: 0;
+}
+
+/* line 384, ../../app/styles/04-templates/_page.scss */
+
+.project-section {
+  width: 66.66667vw;
+  min-height: 100vh;
+  z-index: 0;
+}
+
+/* line 388, ../../app/styles/04-templates/_page.scss */
+
+.project-section:not(:first-of-type) {
+  margin-top: 2rem;
+}
+
+/* line 396, ../../app/styles/04-templates/_page.scss */
+
+.project-basics {
+  margin-top: 1.75rem;
+  min-height: 50vh;
+}
+
+/* line 401, ../../app/styles/04-templates/_page.scss */
+
+.project-section-header {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.255;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+/* line 170, ../../app/styles/00-base/_type.scss */
+
+.Gilroy-Extra-Bold .project-section-header {
+  font-family: Gilroy-Extra-Bold;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+/* line 406, ../../app/styles/04-templates/_page.scss */
+
+.project-section-background-image ~ header .project-section-header {
+  display: inline-block;
+  padding: 0.125rem 0.25rem 0 0.125rem;
+  margin-left: -0.125rem;
+  line-height: 1;
+}
+
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 -body,
 .body {
@@ -3518,14 +3527,22 @@ body.grid.infront:after {
   color: #9297a7;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 -body .project-section:not(:first-of-type),
 .body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+-body .project-section-background-image ~ header .project-section-header,
+.body .project-section-background-image ~ header .project-section-header {
+  background-color: #f4373b;
+  color: #303442;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 -body .project-content-para a,
 .body .project-content-para a {
@@ -3550,14 +3567,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 -body .project-content-para a:hover,
 .body .project-content-para a:hover {
   color: #f4373b;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   color: #f4373b;
@@ -3576,19 +3593,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   color: #303442;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 -body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 .intro-body,
 .intro.body {
@@ -3596,14 +3613,22 @@ body.grid.infront:after {
   color: #9297a7;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 .intro-body .project-section:not(:first-of-type),
 .intro.body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+.intro-body .project-section-background-image ~ header .project-section-header,
+.intro.body .project-section-background-image ~ header .project-section-header {
+  background-color: #f4373b;
+  color: #303442;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 .intro-body .project-content-para a,
 .intro.body .project-content-para a {
@@ -3628,14 +3653,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 .intro-body .project-content-para a:hover,
 .intro.body .project-content-para a:hover {
   color: #f4373b;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content {
   color: #f4373b;
@@ -3654,19 +3679,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content:before {
   color: #303442;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 .intro-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body,
 .eavis.body {
@@ -3674,14 +3699,22 @@ body.grid.infront:after {
   color: #fff;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section:not(:first-of-type),
 .eavis.body .project-section:not(:first-of-type) {
   background-color: #222222;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+.eavis-body .project-section-background-image ~ header .project-section-header,
+.eavis.body .project-section-background-image ~ header .project-section-header {
+  background-color: #fff;
+  color: #222222;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a,
 .eavis.body .project-content-para a {
@@ -3706,14 +3739,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a:hover,
 .eavis.body .project-content-para a:hover {
   color: #36e2ae;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content {
   color: #36e2ae;
@@ -3732,19 +3765,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content:before {
   color: #222222;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body,
 .redburn.body {
@@ -3752,14 +3785,22 @@ body.grid.infront:after {
   color: #fff;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section:not(:first-of-type),
 .redburn.body .project-section:not(:first-of-type) {
   background-color: #090909;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+.redburn-body .project-section-background-image ~ header .project-section-header,
+.redburn.body .project-section-background-image ~ header .project-section-header {
+  background-color: #fff;
+  color: #090909;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-content-para a,
 .redburn.body .project-content-para a {
@@ -3784,14 +3825,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-content-para a:hover,
 .redburn.body .project-content-para a:hover {
   color: #3E8EDE;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content {
   color: #3E8EDE;
@@ -3810,19 +3851,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content:before {
   color: #090909;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 .android-body,
 .android.body {
@@ -3830,14 +3871,22 @@ body.grid.infront:after {
   color: #00FF8D;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section:not(:first-of-type),
 .android.body .project-section:not(:first-of-type) {
   background-color: #141926;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+.android-body .project-section-background-image ~ header .project-section-header,
+.android.body .project-section-background-image ~ header .project-section-header {
+  background-color: #00FF8D;
+  color: #141926;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a,
 .android.body .project-content-para a {
@@ -3862,14 +3911,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a:hover,
 .android.body .project-content-para a:hover {
   color: #00FF8D;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content {
   color: #00FF8D;
@@ -3888,19 +3937,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content:before {
   color: #141926;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 .android-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body,
 .national-theatre.body {
@@ -3908,14 +3957,22 @@ body.grid.infront:after {
   color: #ff9;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section:not(:first-of-type),
 .national-theatre.body .project-section:not(:first-of-type) {
   background-color: #33f;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+.national-theatre-body .project-section-background-image ~ header .project-section-header,
+.national-theatre.body .project-section-background-image ~ header .project-section-header {
+  background-color: #ff9;
+  color: #33f;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a,
 .national-theatre.body .project-content-para a {
@@ -3940,14 +3997,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a:hover,
 .national-theatre.body .project-content-para a:hover {
   color: #ff9;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content {
   color: #ff9;
@@ -3966,19 +4023,19 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content:before {
   color: #33f;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 430, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body,
 .guardian.body {
@@ -3986,14 +4043,22 @@ body.grid.infront:after {
   color: #FF9500;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 436, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section:not(:first-of-type),
 .guardian.body .project-section:not(:first-of-type) {
   background-color: #000E3E;
 }
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 440, ../../app/styles/04-templates/_page.scss */
+
+.guardian-body .project-section-background-image ~ header .project-section-header,
+.guardian.body .project-section-background-image ~ header .project-section-header {
+  background-color: #FF9500;
+  color: #000E3E;
+}
+
+/* line 445, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a,
 .guardian.body .project-content-para a {
@@ -4018,14 +4083,14 @@ body.grid.infront:after {
   z-index: -1;
 }
 
-/* line 450, ../../app/styles/04-templates/_page.scss */
+/* line 466, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a:hover,
 .guardian.body .project-content-para a:hover {
   color: #FF9500;
 }
 
-/* line 456, ../../app/styles/04-templates/_page.scss */
+/* line 472, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content {
   color: #FF9500;
@@ -4044,13 +4109,13 @@ body.grid.infront:after {
   left: 0;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 480, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content:before {
   color: #000E3E;
 }
 
-/* line 468, ../../app/styles/04-templates/_page.scss */
+/* line 484, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body:not(.page-transition) .nav-content {
   display: none;
