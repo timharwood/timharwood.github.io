@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"><symbol viewBox="0 0 192 192"><polygon class="icon" points="180.2,0 95.8,84.3 11.8,0.4 0,12.2 84,96 0,179.9 11.8,191.6 95.8,107.8 180.2,192 192,180.3 107.6,96 192,11.8"/></symbol></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<symbol viewBox="0 0 192 192" id="close-icon"><polygon class="icon" points="180.2,0 95.8,84.3 11.8,0.4 0,12.2 84,96 0,179.9 11.8,191.6 95.8,107.8 180.2,192 192,180.3 107.6,96 
+    192,11.8 "/></symbol>
+</svg>
