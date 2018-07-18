@@ -1284,13 +1284,13 @@ html:not(.loaded) .logo-container {
   margin-bottom: 4rem;
 }
 
-/* line 51, ../../app/styles/02-molecules/_project-section.scss */
+/* line 47, ../../app/styles/02-molecules/_project-section.scss */
 
-.project-section .project-content-para:last-of-type {
+.project-section > :last-child {
   margin-bottom: 4rem;
 }
 
-/* line 55, ../../app/styles/02-molecules/_project-section.scss */
+/* line 51, ../../app/styles/02-molecules/_project-section.scss */
 
 .project-section .project-section-background-image ~ .project-content-para:first-of-type {
   margin-top: -webkit-calc(100vw / 16 * 5);
@@ -3089,6 +3089,7 @@ html:not(.loaded) .logo-container {
 .project-image.inline {
   width: 87.5vw;
   margin-left: -6.25vw;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 960px) {
@@ -3101,37 +3102,37 @@ html:not(.loaded) .logo-container {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 42, ../../app/styles/02-molecules/_project-image.scss */
+  /* line 43, ../../app/styles/02-molecules/_project-image.scss */
 
   .project-image.inline .project-image--caption {
     margin-left: 50vw;
   }
 }
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
 .body .project-image {
   color: #f4373b;
 }
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
 .redburn-body .project-image,
 .redburn.body .project-image {
   color: #3E8EDE;
 }
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
-/* line 69, ../../app/styles/02-molecules/_project-image.scss */
+/* line 70, ../../app/styles/02-molecules/_project-image.scss */
 
 /* line 1, ../../app/styles/02-molecules/_back-link.scss */
 
@@ -4406,31 +4407,11 @@ html:not(.loaded) .logo-container {
 
 /* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
 
-.national-theatre.body .image-gallery {
-  color: #E6C4C4;
-  background-color: rgba(48, 52, 66, 0.75);
-}
+/* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
 
 /* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
 
-.eavis.body .image-gallery {
-  color: #36e2ae;
-  background-color: rgba(34, 34, 34, 0.75);
-}
-
 /* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
-
-.android.body .image-gallery {
-  color: #00FF8D;
-  background-color: rgba(20, 25, 38, 0.75);
-}
-
-/* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
-
-.guardian.body .image-gallery {
-  color: #17a3e2;
-  background-color: rgba(21, 41, 107, 0.75);
-}
 
 /* line 66, ../../app/styles/03-compounds/_image-gallery.scss */
 
@@ -4643,9 +4624,9 @@ html:not(.loaded) .logo-container {
 
 .controls .control {
   position: absolute;
-  top: 0;
+  top: 20vh;
   width: 9.375vw;
-  height: 100vh;
+  height: 60vh;
   z-index: 100;
   opacity: 0.25;
   border: 0;
@@ -4675,9 +4656,11 @@ html:not(.loaded) .logo-container {
 
 .controls .control-previous {
   left: 0;
+  height: 20vh;
+  top: 40vh;
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control {
   color: #f4373b;
@@ -4687,7 +4670,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control:hover,
 .intro.body .controls .control:focus {
@@ -4695,7 +4678,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(48, 52, 66, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control:before {
   content: " ";
@@ -4704,14 +4687,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-next,
 .intro.body .controls .control-previous {
@@ -4719,14 +4704,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-next:before,
 .intro.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#f4373b' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-next:hover:before,
 .intro.body .controls .control-next:focus:before,
@@ -4735,13 +4720,13 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#9297a7' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 109, ../../app/styles/03-compounds/_controls.scss */
+/* line 116, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-previous {
   display: none;
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control {
   color: #3E8EDE;
@@ -4751,7 +4736,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control:hover,
 .redburn.body .controls .control:focus {
@@ -4759,7 +4744,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(25, 25, 25, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control:before {
   content: " ";
@@ -4768,14 +4753,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control-next,
 .redburn.body .controls .control-previous {
@@ -4783,14 +4770,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control-next:before,
 .redburn.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#3E8EDE' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control-next:hover:before,
 .redburn.body .controls .control-next:focus:before,
@@ -4799,7 +4786,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control {
   color: #46dd8e;
@@ -4809,7 +4796,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control:hover,
 .audiences.body .controls .control:focus {
@@ -4817,7 +4804,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(41, 41, 53, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control:before {
   content: " ";
@@ -4826,14 +4813,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control-next,
 .audiences.body .controls .control-previous {
@@ -4841,14 +4830,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control-next:before,
 .audiences.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#46dd8e' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control-next:hover:before,
 .audiences.body .controls .control-next:focus:before,
@@ -4857,7 +4846,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control {
   color: #E6C4C4;
@@ -4867,7 +4856,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control:hover,
 .national-theatre.body .controls .control:focus {
@@ -4875,7 +4864,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(48, 52, 66, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control:before {
   content: " ";
@@ -4884,14 +4873,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control-next,
 .national-theatre.body .controls .control-previous {
@@ -4899,14 +4890,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control-next:before,
 .national-theatre.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#E6C4C4' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control-next:hover:before,
 .national-theatre.body .controls .control-next:focus:before,
@@ -4915,7 +4906,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#ff6' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control {
   color: #36e2ae;
@@ -4925,7 +4916,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control:hover,
 .eavis.body .controls .control:focus {
@@ -4933,7 +4924,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(34, 34, 34, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control:before {
   content: " ";
@@ -4942,14 +4933,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control-next,
 .eavis.body .controls .control-previous {
@@ -4957,14 +4950,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control-next:before,
 .eavis.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#36e2ae' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control-next:hover:before,
 .eavis.body .controls .control-next:focus:before,
@@ -4973,7 +4966,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control {
   color: #00FF8D;
@@ -4983,7 +4976,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control:hover,
 .android.body .controls .control:focus {
@@ -4991,7 +4984,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(20, 25, 38, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control:before {
   content: " ";
@@ -5000,14 +4993,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control-next,
 .android.body .controls .control-previous {
@@ -5015,14 +5010,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control-next:before,
 .android.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#00FF8D' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control-next:hover:before,
 .android.body .controls .control-next:focus:before,
@@ -5031,7 +5026,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#00FF8D' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 55, ../../app/styles/03-compounds/_controls.scss */
+/* line 57, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control {
   color: #17a3e2;
@@ -5041,7 +5036,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 67, ../../app/styles/03-compounds/_controls.scss */
+/* line 69, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control:hover,
 .guardian.body .controls .control:focus {
@@ -5049,7 +5044,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(21, 41, 107, 0);
 }
 
-/* line 73, ../../app/styles/03-compounds/_controls.scss */
+/* line 75, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control:before {
   content: " ";
@@ -5058,14 +5053,16 @@ html:not(.loaded) .logo-container {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem 3rem;
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 90, ../../app/styles/03-compounds/_controls.scss */
+/* line 97, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control-next,
 .guardian.body .controls .control-previous {
@@ -5073,14 +5070,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 95, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control-next:before,
 .guardian.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#17a3e2' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 101, ../../app/styles/03-compounds/_controls.scss */
+/* line 108, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control-next:hover:before,
 .guardian.body .controls .control-next:focus:before,
@@ -5774,7 +5771,7 @@ body {
 /* line 74, ../../app/styles/04-templates/_core.scss */
 
 .body {
-  --scrollbar-track: rgba(163, 9, 12, 0.5);
+  --scrollbar-track: rgba(163, 9, 12, 0.75);
   --scrollbar-thumb: #f4373b;
 }
 
@@ -5798,7 +5795,7 @@ body {
 
 .intro-body,
 .intro.body {
-  --scrollbar-track: rgba(163, 9, 12, 0.5);
+  --scrollbar-track: rgba(163, 9, 12, 0.75);
   --scrollbar-thumb: #f4373b;
 }
 
@@ -5824,7 +5821,7 @@ body {
 
 .redburn-body,
 .redburn.body {
-  --scrollbar-track: rgba(23, 78, 134, 0.5);
+  --scrollbar-track: rgba(23, 78, 134, 0.75);
   --scrollbar-thumb: #3E8EDE;
 }
 
@@ -5850,7 +5847,7 @@ body {
 
 .audiences-body,
 .audiences.body {
-  --scrollbar-track: rgba(25, 138, 79, 0.5);
+  --scrollbar-track: rgba(25, 138, 79, 0.75);
   --scrollbar-thumb: #46dd8e;
 }
 
@@ -5876,7 +5873,7 @@ body {
 
 .national-theatre-body,
 .national-theatre.body {
-  --scrollbar-track: rgba(192, 106, 106, 0.5);
+  --scrollbar-track: rgba(192, 106, 106, 0.75);
   --scrollbar-thumb: #E6C4C4;
 }
 
@@ -5902,7 +5899,7 @@ body {
 
 .eavis-body,
 .eavis.body {
-  --scrollbar-track: rgba(19, 133, 99, 0.5);
+  --scrollbar-track: rgba(19, 133, 99, 0.75);
   --scrollbar-thumb: #36e2ae;
 }
 
@@ -5928,7 +5925,7 @@ body {
 
 .android-body,
 .android.body {
-  --scrollbar-track: rgba(0, 128, 71, 0.5);
+  --scrollbar-track: rgba(0, 128, 71, 0.75);
   --scrollbar-thumb: #00FF8D;
 }
 
@@ -5954,7 +5951,7 @@ body {
 
 .guardian-body,
 .guardian.body {
-  --scrollbar-track: rgba(11, 80, 110, 0.5);
+  --scrollbar-track: rgba(11, 80, 110, 0.75);
   --scrollbar-thumb: #17a3e2;
 }
 
@@ -6729,7 +6726,7 @@ body {
 .project-content-overview,
 .project-content-introduction,
 .project-content-para {
-  margin: 1rem 0;
+  margin: 2rem 0;
   max-width: 28rem;
 }
 
@@ -7543,6 +7540,16 @@ body {
 .redburn.project-title .pull-T {
   margin-right: -0.07em;
   margin-left: 0.025em;
+}
+
+/* line 15, ../../app/styles/05-pages/_redburn.scss */
+
+.redburn #visual-language-card-elements,
+.redburn #expanding-search-pattern,
+.redburn #page-structure,
+.redburn #reading-experience {
+  color: #191919;
+  background-color: #F6F6F0;
 }
 
 /* line 5, ../../app/styles/05-pages/_android.scss */
