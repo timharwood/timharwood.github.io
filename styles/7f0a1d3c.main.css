@@ -6514,10 +6514,17 @@ body {
   opacity: 1;
 }
 
-/* line 170, ../../app/styles/04-templates/_page.scss */
+/* line 260, ../../app/styles/04-templates/_page.scss */
 
 .project-intro {
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transition-property: height, min-height, max-height, margin;
+  transition-property: height, min-height, max-height, margin;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
   width: 100%;
+  height: auto;
   min-height: 66vh;
   padding: 0.025rem;
   overflow: hidden;
@@ -6526,6 +6533,9 @@ body {
   font-weight: 800;
   line-height: 1;
   letter-spacing: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
 }
 
 /* line 128, ../../app/styles/00-base/_type.scss */
@@ -6536,7 +6546,7 @@ body {
   letter-spacing: -0.06em;
 }
 
-/* line 182, ../../app/styles/04-templates/_page.scss */
+/* line 197, ../../app/styles/04-templates/_page.scss */
 
 .project-intro:before {
   content: '';
@@ -6546,6 +6556,11 @@ body {
   transition: 250ms;
   -webkit-transition-property: height, min-height, max-height;
   transition-property: height, min-height, max-height;
+}
+
+/* line 219, ../../app/styles/04-templates/_page.scss */
+
+.project-intro:before {
   -webkit-transition-delay: 125ms;
   transition-delay: 125ms;
   height: 110vh;
@@ -6553,192 +6568,7 @@ body {
   max-height: 110vh;
 }
 
-/* line 196, ../../app/styles/04-templates/_page.scss */
-
-.project-overview {
-  width: 100%;
-  padding: 0.025rem;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: 0;
-}
-
-/* line 128, ../../app/styles/00-base/_type.scss */
-
-.Gilroy-Bold .project-overview {
-  font-family: Gilroy-Bold;
-  font-weight: 500;
-  letter-spacing: -0.06em;
-}
-
-/* line 206, ../../app/styles/04-templates/_page.scss */
-
-:target .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.intro.body .nav-item-intro .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.redburn.body .nav-item-redburn .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.audiences.body .nav-item-audiences .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.national-theatre.body .nav-item-national-theatre .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.eavis.body .nav-item-eavis .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.android.body .nav-item-android .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 214, ../../app/styles/04-templates/_page.scss */
-
-.guardian.body .nav-item-guardian .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 221, ../../app/styles/04-templates/_page.scss */
-
-.info-body .page-content .project-intro:before,
-.work-body .page-content .project-intro:before {
-  -webkit-transition-delay: 250ms;
-  transition-delay: 250ms;
-  height: -webkit-calc( (100vw / 16 * 9) - 10rem);
-  height: calc( (100vw / 16 * 9) - 10rem);
-  min-height: 10rem;
-  max-height: 60vh;
-}
-
-/* line 226, ../../app/styles/04-templates/_page.scss */
-
-.page-transition .page-content .project-intro:before {
-  height: 56vh;
-  min-height: 56vh;
-  max-height: 56vh;
-}
-
-/* line 235, ../../app/styles/04-templates/_page.scss */
-
-.index-content {
-  position: absolute;
-  width: 0;
-  height: 0;
-}
-
-/* line 243, ../../app/styles/04-templates/_page.scss */
-
-.nav-content,
-.page-content {
-  opacity: 0;
-  display: none;
-}
-
-/* line 249, ../../app/styles/04-templates/_page.scss */
-
-.loaded .page-transition .nav-content,
-.loaded .page-transition .page-content {
-  display: block;
-}
-
-/* line 255, ../../app/styles/04-templates/_page.scss */
-
-.loaded .nav-body .nav-content,
-.loaded .info-body .info-content,
-.loaded .work-body .work-content {
-  opacity: 1;
-  display: block;
-}
-
-/* line 265, ../../app/styles/04-templates/_page.scss */
-
-.nav-body .project-title-unit {
-  margin-top: 30vh;
-}
-
-/* line 269, ../../app/styles/04-templates/_page.scss */
-
-.info-body .project-title-unit,
-.work-body .project-title-unit {
-  margin-top: 2.5rem;
-}
-
-/* line 274, ../../app/styles/04-templates/_page.scss */
-
-.nav-body.page-transition .project-title-unit,
-.info-body.page-transition .project-title-unit,
-.work-body.page-transition .project-title-unit {
-  margin-top: 30vh;
-}
-
-/* uncss:ignore */
-
 /* line 283, ../../app/styles/04-templates/_page.scss */
-
-[data-trans-in='nav'] .nav-content,
-[data-trans-in='nav'] .nav-content .project-title-unit,
-[data-trans-in='work'] .work-content,
-[data-trans-in='work'] .work-content .project-title-unit,
-[data-trans-in='info'] .info-content,
-[data-trans-in='info'] .info-content .project-title-unit {
-  -webkit-transition-delay: 0ms;
-  transition-delay: 0ms;
-}
-
-/* uncss:ignore */
-
-/* line 293, ../../app/styles/04-templates/_page.scss */
-
-[data-trans-out='nav'] .nav-content,
-[data-trans-out='nav'] .nav-content .project-title-unit,
-[data-trans-out='work'] .work-content,
-[data-trans-out='work'] .work-content .project-title-unit,
-[data-trans-out='info'] .info-content,
-[data-trans-out='info'] .info-content .project-title-unit {
-  -webkit-transition-delay: 250ms;
-  transition-delay: 250ms;
-}
-
-/* line 307, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   position: absolute;
@@ -6763,6 +6593,8 @@ body {
   text-transform: uppercase;
   line-height: 2rem;
   text-align: center;
+  bottom: -32vh;
+  transition-delay: 0;
 }
 
 /* line 136, ../../app/styles/00-base/_type.scss */
@@ -6786,14 +6618,14 @@ body {
   left: 0;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 152, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   content: ' ';
   position: absolute;
   top: -2rem;
   right: -1rem;
-  bottom: 0;
+  bottom: 100%;
   left: -1rem;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -6802,56 +6634,73 @@ body {
   background-image: linear-gradient(to bottom, transparent, currentColor 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-intro .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(48, 52, 66, 0), #303442 2rem);
   background-image: linear-gradient(to bottom, rgba(48, 52, 66, 0), #303442 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-redburn .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0), #191919 2rem);
   background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0), #191919 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-audiences .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(41, 41, 53, 0), #292935 2rem);
   background-image: linear-gradient(to bottom, rgba(41, 41, 53, 0), #292935 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-national-theatre .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(48, 52, 66, 0), #303442 2rem);
   background-image: linear-gradient(to bottom, rgba(48, 52, 66, 0), #303442 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-eavis .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(34, 34, 34, 0), #222222 2rem);
   background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0), #222222 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-android .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(20, 25, 38, 0), #141926 2rem);
   background-image: linear-gradient(to bottom, rgba(20, 25, 38, 0), #141926 2rem);
 }
 
-/* line 353, ../../app/styles/04-templates/_page.scss */
+/* line 173, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-guardian .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(21, 41, 107, 0), #15296b 2rem);
   background-image: linear-gradient(to bottom, rgba(21, 41, 107, 0), #15296b 2rem);
 }
 
-/* line 374, ../../app/styles/04-templates/_page.scss */
+/* line 315, ../../app/styles/04-templates/_page.scss */
+
+:target .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+:target .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 320, ../../app/styles/04-templates/_page.scss */
 
 :target .project-load-content {
   bottom: 0;
@@ -6859,7 +6708,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.intro.body .nav-item-intro .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.intro.body .nav-item-intro .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.intro.page-transition.body .nav-item-intro .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.intro.page-transition.body .nav-item-intro .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .intro.body .nav-item-intro .project-load-content {
   bottom: 0;
@@ -6867,7 +6750,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.redburn.body .nav-item-redburn .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.redburn.body .nav-item-redburn .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.redburn.page-transition.body .nav-item-redburn .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.redburn.page-transition.body .nav-item-redburn .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .redburn.body .nav-item-redburn .project-load-content {
   bottom: 0;
@@ -6875,7 +6792,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.audiences.body .nav-item-audiences .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.audiences.body .nav-item-audiences .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.audiences.page-transition.body .nav-item-audiences .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.audiences.page-transition.body .nav-item-audiences .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .audiences.body .nav-item-audiences .project-load-content {
   bottom: 0;
@@ -6883,7 +6834,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.national-theatre.body .nav-item-national-theatre .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.national-theatre.body .nav-item-national-theatre .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.national-theatre.page-transition.body .nav-item-national-theatre .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.national-theatre.page-transition.body .nav-item-national-theatre .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-load-content {
   bottom: 0;
@@ -6891,7 +6876,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.eavis.body .nav-item-eavis .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.eavis.body .nav-item-eavis .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.eavis.page-transition.body .nav-item-eavis .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.eavis.page-transition.body .nav-item-eavis .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .eavis.body .nav-item-eavis .project-load-content {
   bottom: 0;
@@ -6899,7 +6918,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.android.body .nav-item-android .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.android.body .nav-item-android .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.android.page-transition.body .nav-item-android .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.android.page-transition.body .nav-item-android .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .android.body .nav-item-android .project-load-content {
   bottom: 0;
@@ -6907,7 +6960,41 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 382, ../../app/styles/04-templates/_page.scss */
+/* line 330, ../../app/styles/04-templates/_page.scss */
+
+.guardian.body .nav-item-guardian .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.guardian.body .nav-item-guardian .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 335, ../../app/styles/04-templates/_page.scss */
+
+.guardian.page-transition.body .nav-item-guardian .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.guardian.page-transition.body .nav-item-guardian .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 340, ../../app/styles/04-templates/_page.scss */
 
 .guardian.body .nav-item-guardian .project-load-content {
   bottom: 0;
@@ -6915,21 +7002,147 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 388, ../../app/styles/04-templates/_page.scss */
+/* line 347, ../../app/styles/04-templates/_page.scss */
+
+.info-body .page-content .project-intro,
+.work-body .page-content .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 209, ../../app/styles/04-templates/_page.scss */
+
+.info-body .page-content .project-intro:before,
+.work-body .page-content .project-intro:before {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  height: -webkit-calc( (100vw / 16 * 9) - 10rem);
+  height: calc( (100vw / 16 * 9) - 10rem);
+  min-height: 10rem;
+  max-height: 60vh;
+}
+
+/* uncss:ignore */
+
+/* line 354, ../../app/styles/04-templates/_page.scss */
+
+.page-transition.body .page-content .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 229, ../../app/styles/04-templates/_page.scss */
+
+.page-transition.body .page-content .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* uncss:ignore */
+
+/* line 360, ../../app/styles/04-templates/_page.scss */
 
 .page-transition :target .project-load-content,
 .page-transition.body .nav-item .project-load-content {
-  bottom: -24vh;
+  bottom: -32vh;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
 }
 
-/* line 396, ../../app/styles/04-templates/_page.scss */
+/* line 371, ../../app/styles/04-templates/_page.scss */
+
+.index-content {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+/* line 379, ../../app/styles/04-templates/_page.scss */
+
+.nav-content,
+.page-content {
+  opacity: 0;
+  display: none;
+}
+
+/* line 385, ../../app/styles/04-templates/_page.scss */
+
+.loaded .page-transition .nav-content,
+.loaded .page-transition .page-content {
+  display: block;
+}
+
+/* line 391, ../../app/styles/04-templates/_page.scss */
+
+.loaded .nav-body .nav-content,
+.loaded .info-body .info-content,
+.loaded .work-body .work-content {
+  opacity: 1;
+  display: block;
+}
+
+/* line 401, ../../app/styles/04-templates/_page.scss */
+
+.nav-body .project-title-unit {
+  margin-top: 30vh;
+}
+
+/* line 405, ../../app/styles/04-templates/_page.scss */
+
+.info-body .project-title-unit,
+.work-body .project-title-unit {
+  margin-top: 2.5rem;
+}
+
+/* line 410, ../../app/styles/04-templates/_page.scss */
+
+.nav-body.page-transition .project-title-unit,
+.info-body.page-transition .project-title-unit,
+.work-body.page-transition .project-title-unit {
+  margin-top: 30vh;
+}
+
+/* uncss:ignore */
+
+/* line 419, ../../app/styles/04-templates/_page.scss */
+
+[data-trans-in='nav'] .nav-content,
+[data-trans-in='nav'] .nav-content .project-title-unit,
+[data-trans-in='work'] .work-content,
+[data-trans-in='work'] .work-content .project-title-unit,
+[data-trans-in='info'] .info-content,
+[data-trans-in='info'] .info-content .project-title-unit {
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+}
+
+/* uncss:ignore */
+
+/* line 429, ../../app/styles/04-templates/_page.scss */
+
+[data-trans-out='nav'] .nav-content,
+[data-trans-out='nav'] .nav-content .project-title-unit,
+[data-trans-out='work'] .work-content,
+[data-trans-out='work'] .work-content .project-title-unit,
+[data-trans-out='info'] .info-content,
+[data-trans-out='info'] .info-content .project-title-unit {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+}
+
+/* line 448, ../../app/styles/04-templates/_page.scss */
 
 .index-body {
   background-color: #303442;
   color: #9297a7;
 }
 
-/* line 403, ../../app/styles/04-templates/_page.scss */
+/* line 455, ../../app/styles/04-templates/_page.scss */
 
 .project-content-overview,
 .project-content-introduction,
@@ -6938,7 +7151,7 @@ body {
   max-width: 28rem;
 }
 
-/* line 412, ../../app/styles/04-templates/_page.scss */
+/* line 464, ../../app/styles/04-templates/_page.scss */
 
 .project-content-overview,
 .project-content-introduction {
@@ -6959,7 +7172,7 @@ body {
   letter-spacing: -0.06em;
 }
 
-/* line 417, ../../app/styles/04-templates/_page.scss */
+/* line 469, ../../app/styles/04-templates/_page.scss */
 
 .project-content-para {
   font-family: Georgia, Times New Roman, sans-serif;
@@ -6969,19 +7182,19 @@ body {
   letter-spacing: 0;
 }
 
-/* line 421, ../../app/styles/04-templates/_page.scss */
+/* line 473, ../../app/styles/04-templates/_page.scss */
 
 .project-content-para:not(:first-of-type) {
   text-indent: 2rem;
 }
 
-/* line 425, ../../app/styles/04-templates/_page.scss */
+/* line 477, ../../app/styles/04-templates/_page.scss */
 
 .project-content-para * {
   text-indent: 0;
 }
 
-/* line 431, ../../app/styles/04-templates/_page.scss */
+/* line 483, ../../app/styles/04-templates/_page.scss */
 
 .project-section {
   width: 68.75vw;
@@ -6996,41 +7209,41 @@ body {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 431, ../../app/styles/04-templates/_page.scss */
+  /* line 483, ../../app/styles/04-templates/_page.scss */
 
   .project-section {
     width: 56.25vw;
   }
 }
 
-/* line 439, ../../app/styles/04-templates/_page.scss */
+/* line 491, ../../app/styles/04-templates/_page.scss */
 
 .project-section:not(:first-of-type) {
   margin-top: 2rem;
 }
 
-/* line 451, ../../app/styles/04-templates/_page.scss */
+/* line 503, ../../app/styles/04-templates/_page.scss */
 
 .project-overview {
   width: 68.75vw;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 451, ../../app/styles/04-templates/_page.scss */
+  /* line 503, ../../app/styles/04-templates/_page.scss */
 
   .project-overview {
     width: 56.25vw;
   }
 }
 
-/* line 459, ../../app/styles/04-templates/_page.scss */
+/* line 511, ../../app/styles/04-templates/_page.scss */
 
 .project-basics {
   margin-top: 1.75rem;
   min-height: 50vh;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 516, ../../app/styles/04-templates/_page.scss */
 
 .project-section-header {
   font-family: Helvetica, Arial, sans-serif;
@@ -7050,7 +7263,7 @@ body {
 }
 
 @media screen and (min-width: 640px) {
-  /* line 464, ../../app/styles/04-templates/_page.scss */
+  /* line 516, ../../app/styles/04-templates/_page.scss */
 
   .project-section-header {
     font-family: Helvetica, Arial, sans-serif;
@@ -7070,7 +7283,7 @@ body {
   }
 }
 
-/* line 471, ../../app/styles/04-templates/_page.scss */
+/* line 523, ../../app/styles/04-templates/_page.scss */
 
 .project-section-header:before {
   position: absolute;
@@ -7098,38 +7311,38 @@ body {
   opacity: 0.125;
 }
 
-/* line 496, ../../app/styles/04-templates/_page.scss */
+/* line 548, ../../app/styles/04-templates/_page.scss */
 
 .project-section-image + .project-section-image {
   margin-top: 1px;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .body {
   background-color: #303442;
   color: #9297a7;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
 .body .project-section-background-image ~ header .project-section-header {
   color: #f4373b;
 }
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
 .body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(48, 52, 66, 0.125);
 }
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 .body .project-content-para a {
   display: inline-block;
@@ -7152,13 +7365,13 @@ body {
   z-index: -1;
 }
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
 .body .project-content-para a:hover {
   color: #f4373b;
 }
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   color: #f4373b;
@@ -7177,19 +7390,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   color: #303442;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 -body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .intro-body,
 .intro.body {
@@ -7197,19 +7410,19 @@ body {
   color: #9297a7;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 /* line 190, ../../app/styles/00-base/_utils.scss */
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content {
   color: #f4373b;
@@ -7228,19 +7441,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content:before {
   color: #303442;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .intro-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body,
 .redburn.body {
@@ -7248,34 +7461,34 @@ body {
   color: #fff;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section:not(:first-of-type),
 .redburn.body .project-section:not(:first-of-type) {
   background-color: #191919;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section-background-image ~ header .project-section-header,
 .redburn.body .project-section-background-image ~ header .project-section-header {
   color: #fff;
 }
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section-background-image ~ header .project-section-header:before,
 .redburn.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(25, 25, 25, 0.125);
 }
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 /* line 190, ../../app/styles/00-base/_utils.scss */
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content {
   color: #3E8EDE;
@@ -7294,19 +7507,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content:before {
   color: #191919;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .audiences-body,
 .audiences.body {
@@ -7314,24 +7527,24 @@ body {
   color: #fff;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .audiences-body .project-section:not(:first-of-type),
 .audiences.body .project-section:not(:first-of-type) {
   background-color: #292935;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 /* line 190, ../../app/styles/00-base/_utils.scss */
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .audiences .project-load-content {
   color: #46dd8e;
@@ -7350,19 +7563,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .audiences .project-load-content:before {
   color: #292935;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .audiences-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body,
 .national-theatre.body {
@@ -7370,28 +7583,28 @@ body {
   color: #ff6;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section:not(:first-of-type),
 .national-theatre.body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section-background-image ~ header .project-section-header,
 .national-theatre.body .project-section-background-image ~ header .project-section-header {
   color: #ff6;
 }
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section-background-image ~ header .project-section-header:before,
 .national-theatre.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(48, 52, 66, 0.125);
 }
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a,
 .national-theatre.body .project-content-para a {
@@ -7416,14 +7629,14 @@ body {
   z-index: -1;
 }
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a:hover,
 .national-theatre.body .project-content-para a:hover {
   color: #E6C4C4;
 }
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content {
   color: #E6C4C4;
@@ -7442,19 +7655,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content:before {
   color: #303442;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body,
 .eavis.body {
@@ -7462,28 +7675,28 @@ body {
   color: #fff;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section:not(:first-of-type),
 .eavis.body .project-section:not(:first-of-type) {
   background-color: #222222;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section-background-image ~ header .project-section-header,
 .eavis.body .project-section-background-image ~ header .project-section-header {
   color: #fff;
 }
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section-background-image ~ header .project-section-header:before,
 .eavis.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(34, 34, 34, 0.125);
 }
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a,
 .eavis.body .project-content-para a {
@@ -7508,14 +7721,14 @@ body {
   z-index: -1;
 }
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a:hover,
 .eavis.body .project-content-para a:hover {
   color: #36e2ae;
 }
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content {
   color: #36e2ae;
@@ -7534,19 +7747,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content:before {
   color: #222222;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .android-body,
 .android.body {
@@ -7554,28 +7767,28 @@ body {
   color: #00FF8D;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section:not(:first-of-type),
 .android.body .project-section:not(:first-of-type) {
   background-color: #141926;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section-background-image ~ header .project-section-header,
 .android.body .project-section-background-image ~ header .project-section-header {
   color: #00FF8D;
 }
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section-background-image ~ header .project-section-header:before,
 .android.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(20, 25, 38, 0.125);
 }
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a,
 .android.body .project-content-para a {
@@ -7600,14 +7813,14 @@ body {
   z-index: -1;
 }
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a:hover,
 .android.body .project-content-para a:hover {
   color: #00FF8D;
 }
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content {
   color: #00FF8D;
@@ -7626,19 +7839,19 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content:before {
   color: #141926;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .android-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 517, ../../app/styles/04-templates/_page.scss */
+/* line 569, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body,
 .guardian.body {
@@ -7646,28 +7859,28 @@ body {
   color: #fff;
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 575, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section:not(:first-of-type),
 .guardian.body .project-section:not(:first-of-type) {
   background-color: #15296B;
 }
 
-/* line 527, ../../app/styles/04-templates/_page.scss */
+/* line 579, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section-background-image ~ header .project-section-header,
 .guardian.body .project-section-background-image ~ header .project-section-header {
   color: #fff;
 }
 
-/* line 530, ../../app/styles/04-templates/_page.scss */
+/* line 582, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section-background-image ~ header .project-section-header:before,
 .guardian.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(21, 41, 107, 0.125);
 }
 
-/* line 536, ../../app/styles/04-templates/_page.scss */
+/* line 588, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a,
 .guardian.body .project-content-para a {
@@ -7692,14 +7905,14 @@ body {
   z-index: -1;
 }
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 600, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a:hover,
 .guardian.body .project-content-para a:hover {
   color: #17a3e2;
 }
 
-/* line 554, ../../app/styles/04-templates/_page.scss */
+/* line 606, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content {
   color: #17a3e2;
@@ -7718,13 +7931,13 @@ body {
   left: 0;
 }
 
-/* line 562, ../../app/styles/04-templates/_page.scss */
+/* line 614, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content:before {
   color: #15296B;
 }
 
-/* line 566, ../../app/styles/04-templates/_page.scss */
+/* line 618, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body:not(.page-transition) .nav-content {
   display: none;
