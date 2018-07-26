@@ -2410,57 +2410,36 @@ html:not(.loaded) .logo-container {
   margin-right: 0.03em;
 }
 
-/* line 10, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 75, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .project-background-image {
+  -webkit-transition: all 250ms ease 0s;
+  transition: all 250ms ease 0s;
   position: fixed;
   left: -0.125rem;
   top: -0.125rem;
   right: -0.125rem;
-  /* margin-top: 2.5rem; */
   width: -webkit-calc(100vw + (2 * 0.125rem));
   width: calc(100vw + (2 * 0.125rem));
   height: -webkit-calc(100vw / 16 * 9);
   height: calc(100vw / 16 * 9);
   max-height: 99vh;
+  opacity: 0;
   z-index: -2;
   overflow: hidden;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 84, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .project-background-image img {
+  -webkit-transition: -webkit-transform 250ms ease 0s;
+  transition: transform 250ms ease 0s;
   width: 100%;
-  /*filter: blur($blur);*/
-  -webkit-transition: opacity 250ms ease 0s;
-  transition: opacity 250ms ease 0s;
-}
-
-/* line 34, ../../app/styles/02-molecules/_project-background-image.scss */
-
-/* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
-
-.work-body .project-background-image img {
   opacity: 0.75;
 }
 
-/* line 43, ../../app/styles/02-molecules/_project-background-image.scss */
-
-.project-background-image:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: " ";
-  background-image: -webkit-linear-gradient(270deg, transparent 0, transparent 25%, currentColor 90%);
-  background-image: linear-gradient(180deg, transparent 0, transparent 25%, currentColor 90%);
-  background-size: 100% 100%;
-  z-index: 2;
-}
-
 @supports (mix-blend-mode: screen) {
-  /* line 56, ../../app/styles/02-molecules/_project-background-image.scss */
+  /* line 93, ../../app/styles/02-molecules/_project-background-image.scss */
 
   .project-background-image:before {
     position: absolute;
@@ -2475,16 +2454,121 @@ html:not(.loaded) .logo-container {
   }
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 104, ../../app/styles/02-molecules/_project-background-image.scss */
 
+.work-body .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.work-body .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* line 34, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.work-body .project-background-image:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: " ";
+  background-image: -webkit-linear-gradient(270deg, transparent 0, transparent 25%, currentColor 90%);
+  background-image: linear-gradient(180deg, transparent 0, transparent 25%, currentColor 90%);
+  background-size: 100% 100%;
+  z-index: 2;
+}
+
+/* line 109, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.nav-item .project-background-image {
+  opacity: 0;
+}
+
+/* line 13, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.nav-item .project-background-image img {
+  -webkit-transform: scale(0) translate(31.25vw, -100vh);
+  transform: scale(0) translate(31.25vw, -100vh);
+}
+
+/* line 47, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.nav-item .project-background-image:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  z-index: 2;
+  background-image: -webkit-linear-gradient(135deg, currentColor 46%, transparent 49%, transparent 51%, currentColor 55%);
+  background-image: linear-gradient(-45deg, currentColor 46%, transparent 49%, transparent 51%, currentColor 55%);
+  background-size: 3px 3px !important;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+
+-body .project-background-image,
 .body .project-background-image {
   color: #303442;
   background-color: #303442;
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.page-transition.body .nav-item-default .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.page-transition.body .nav-item-default .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.intro-body .project-background-image,
+.intro.body .project-background-image {
+  color: #303442;
+  background-color: #303442;
+}
+
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.intro.page-transition.body .nav-item-intro .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.intro.page-transition.body .nav-item-intro .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .redburn-body .project-background-image,
 .redburn.body .project-background-image {
@@ -2492,7 +2576,37 @@ html:not(.loaded) .logo-container {
   background-color: #191919;
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.redburn-body .nav-item-redburn .project-background-image,
+.redburn.body .nav-item-redburn .project-background-image {
+  opacity: 0.75;
+}
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.redburn-body .nav-item-redburn .project-background-image img,
+.redburn.body .nav-item-redburn .project-background-image img {
+  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
+  transform: scale(0.5) translate(6.25vw, -25vh);
+}
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.redburn.page-transition.body .nav-item-redburn .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.redburn.page-transition.body .nav-item-redburn .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .audiences-body .project-background-image,
 .audiences.body .project-background-image {
@@ -2500,7 +2614,37 @@ html:not(.loaded) .logo-container {
   background-color: #292935;
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.audiences-body .nav-item-audiences .project-background-image,
+.audiences.body .nav-item-audiences .project-background-image {
+  opacity: 0.75;
+}
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.audiences-body .nav-item-audiences .project-background-image img,
+.audiences.body .nav-item-audiences .project-background-image img {
+  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
+  transform: scale(0.5) translate(6.25vw, -25vh);
+}
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.audiences.page-transition.body .nav-item-audiences .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.audiences.page-transition.body .nav-item-audiences .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .national-theatre-body .project-background-image,
 .national-theatre.body .project-background-image {
@@ -2508,7 +2652,37 @@ html:not(.loaded) .logo-container {
   background-color: #303442;
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.national-theatre-body .nav-item-national-theatre .project-background-image,
+.national-theatre.body .nav-item-national-theatre .project-background-image {
+  opacity: 0.75;
+}
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.national-theatre-body .nav-item-national-theatre .project-background-image img,
+.national-theatre.body .nav-item-national-theatre .project-background-image img {
+  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
+  transform: scale(0.5) translate(6.25vw, -25vh);
+}
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.national-theatre.page-transition.body .nav-item-national-theatre .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.national-theatre.page-transition.body .nav-item-national-theatre .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .eavis-body .project-background-image,
 .eavis.body .project-background-image {
@@ -2516,7 +2690,37 @@ html:not(.loaded) .logo-container {
   background-color: #222222;
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.eavis-body .nav-item-eavis .project-background-image,
+.eavis.body .nav-item-eavis .project-background-image {
+  opacity: 0.75;
+}
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.eavis-body .nav-item-eavis .project-background-image img,
+.eavis.body .nav-item-eavis .project-background-image img {
+  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
+  transform: scale(0.5) translate(6.25vw, -25vh);
+}
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.eavis.page-transition.body .nav-item-eavis .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.eavis.page-transition.body .nav-item-eavis .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .android-body .project-background-image,
 .android.body .project-background-image {
@@ -2524,12 +2728,70 @@ html:not(.loaded) .logo-container {
   background-color: #141926;
 }
 
-/* line 92, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.android-body .nav-item-android .project-background-image,
+.android.body .nav-item-android .project-background-image {
+  opacity: 0.75;
+}
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.android-body .nav-item-android .project-background-image img,
+.android.body .nav-item-android .project-background-image img {
+  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
+  transform: scale(0.5) translate(6.25vw, -25vh);
+}
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.android.page-transition.body .nav-item-android .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.android.page-transition.body .nav-item-android .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+
+/* uncss:ignore */
+
+/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .guardian-body .project-background-image,
 .guardian.body .project-background-image {
   color: #15296B;
   background-color: #15296B;
+}
+
+/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.guardian-body .nav-item-guardian .project-background-image,
+.guardian.body .nav-item-guardian .project-background-image {
+  opacity: 0.75;
+}
+
+/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.guardian-body .nav-item-guardian .project-background-image img,
+.guardian.body .nav-item-guardian .project-background-image img {
+  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
+  transform: scale(0.5) translate(6.25vw, -25vh);
+}
+
+/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.guardian.page-transition.body .nav-item-guardian .project-background-image {
+  opacity: 1;
+}
+
+/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.guardian.page-transition.body .nav-item-guardian .project-background-image img {
+  -webkit-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
 }
 
 /**
@@ -4843,7 +5105,14 @@ html:not(.loaded) .logo-container {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 28, ../../app/styles/03-compounds/_controls.scss */
+/* line 27, ../../app/styles/03-compounds/_controls.scss */
+
+.controls .control:hover,
+.controls .control:focus {
+  opacity: 1;
+}
+
+/* line 33, ../../app/styles/03-compounds/_controls.scss */
 
 .controls .control-next {
   right: 0;
@@ -4852,14 +5121,14 @@ html:not(.loaded) .logo-container {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 28, ../../app/styles/03-compounds/_controls.scss */
+  /* line 33, ../../app/styles/03-compounds/_controls.scss */
 
   .controls .control-next {
     width: 18.75vw;
   }
 }
 
-/* line 37, ../../app/styles/03-compounds/_controls.scss */
+/* line 42, ../../app/styles/03-compounds/_controls.scss */
 
 .controls .control-previous {
   left: 0;
@@ -4867,7 +5136,7 @@ html:not(.loaded) .logo-container {
   top: 40vh;
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control {
   color: #f4373b;
@@ -4877,7 +5146,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control:hover,
 .intro.body .controls .control:focus {
@@ -4885,7 +5154,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(48, 52, 66, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control:before {
   content: " ";
@@ -4903,7 +5172,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-next,
 .intro.body .controls .control-previous {
@@ -4911,14 +5180,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-next:before,
 .intro.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#f4373b' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-next:hover:before,
 .intro.body .controls .control-next:focus:before,
@@ -4927,13 +5196,13 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#9297a7' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 116, ../../app/styles/03-compounds/_controls.scss */
+/* line 121, ../../app/styles/03-compounds/_controls.scss */
 
 .intro.body .controls .control-previous {
   display: none;
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control {
   color: #3E8EDE;
@@ -4943,7 +5212,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control:hover,
 .redburn.body .controls .control:focus {
@@ -4951,7 +5220,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(25, 25, 25, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control:before {
   content: " ";
@@ -4969,7 +5238,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control-next,
 .redburn.body .controls .control-previous {
@@ -4977,14 +5246,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control-next:before,
 .redburn.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#3E8EDE' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .redburn.body .controls .control-next:hover:before,
 .redburn.body .controls .control-next:focus:before,
@@ -4993,7 +5262,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control {
   color: #46dd8e;
@@ -5003,7 +5272,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control:hover,
 .audiences.body .controls .control:focus {
@@ -5011,7 +5280,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(41, 41, 53, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control:before {
   content: " ";
@@ -5029,7 +5298,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control-next,
 .audiences.body .controls .control-previous {
@@ -5037,14 +5306,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control-next:before,
 .audiences.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#46dd8e' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .audiences.body .controls .control-next:hover:before,
 .audiences.body .controls .control-next:focus:before,
@@ -5053,7 +5322,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control {
   color: #E6C4C4;
@@ -5063,7 +5332,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control:hover,
 .national-theatre.body .controls .control:focus {
@@ -5071,7 +5340,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(48, 52, 66, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control:before {
   content: " ";
@@ -5089,7 +5358,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control-next,
 .national-theatre.body .controls .control-previous {
@@ -5097,14 +5366,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control-next:before,
 .national-theatre.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#E6C4C4' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .national-theatre.body .controls .control-next:hover:before,
 .national-theatre.body .controls .control-next:focus:before,
@@ -5113,7 +5382,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#ff6' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control {
   color: #36e2ae;
@@ -5123,7 +5392,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control:hover,
 .eavis.body .controls .control:focus {
@@ -5131,7 +5400,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(34, 34, 34, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control:before {
   content: " ";
@@ -5149,7 +5418,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control-next,
 .eavis.body .controls .control-previous {
@@ -5157,14 +5426,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control-next:before,
 .eavis.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#36e2ae' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .eavis.body .controls .control-next:hover:before,
 .eavis.body .controls .control-next:focus:before,
@@ -5173,7 +5442,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control {
   color: #00FF8D;
@@ -5183,7 +5452,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control:hover,
 .android.body .controls .control:focus {
@@ -5191,7 +5460,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(20, 25, 38, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control:before {
   content: " ";
@@ -5209,7 +5478,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control-next,
 .android.body .controls .control-previous {
@@ -5217,14 +5486,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control-next:before,
 .android.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#00FF8D' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .android.body .controls .control-next:hover:before,
 .android.body .controls .control-next:focus:before,
@@ -5233,7 +5502,7 @@ html:not(.loaded) .logo-container {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#00FF8D' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 57, ../../app/styles/03-compounds/_controls.scss */
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control {
   color: #17a3e2;
@@ -5243,7 +5512,7 @@ html:not(.loaded) .logo-container {
   background-repeat: repeat;
 }
 
-/* line 69, ../../app/styles/03-compounds/_controls.scss */
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control:hover,
 .guardian.body .controls .control:focus {
@@ -5251,7 +5520,7 @@ html:not(.loaded) .logo-container {
   background-color: rgba(21, 41, 107, 0);
 }
 
-/* line 75, ../../app/styles/03-compounds/_controls.scss */
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control:before {
   content: " ";
@@ -5269,7 +5538,7 @@ html:not(.loaded) .logo-container {
   background-repeat: no-repeat;
 }
 
-/* line 97, ../../app/styles/03-compounds/_controls.scss */
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control-next,
 .guardian.body .controls .control-previous {
@@ -5277,14 +5546,14 @@ html:not(.loaded) .logo-container {
   background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
 }
 
-/* line 102, ../../app/styles/03-compounds/_controls.scss */
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control-next:before,
 .guardian.body .controls .control-previous:before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#17a3e2' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
-/* line 108, ../../app/styles/03-compounds/_controls.scss */
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
 
 .guardian.body .controls .control-next:hover:before,
 .guardian.body .controls .control-next:focus:before,
@@ -6401,7 +6670,7 @@ body {
   font-size: 1rem;
   line-height: 1rem;
   overflow: hidden;
-  opacity: 0.5;
+  opacity: 0.25;
   -webkit-transition: 250ms 250ms;
   transition: 250ms 250ms;
   -webkit-transition-property: opacity;
