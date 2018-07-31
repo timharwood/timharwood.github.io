@@ -22,13 +22,64 @@
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -357,13 +408,64 @@ svg:not(:root) {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -450,13 +552,64 @@ svg:not(:root) {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -483,13 +636,64 @@ svg:not(:root) {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -623,6 +827,12 @@ html:not(.loaded) .logo-container {
 
 /* line 43, ../../app/styles/02-molecules/_logo.scss */
 
+.roh .logo-part {
+  fill: #E89EAC;
+}
+
+/* line 43, ../../app/styles/02-molecules/_logo.scss */
+
 .redburn .logo-part {
   fill: #FFC627;
 }
@@ -661,13 +871,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -694,13 +955,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -808,13 +1120,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -841,13 +1204,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -942,19 +1356,19 @@ html:not(.loaded) .logo-container {
   letter-spacing: -0.06em;
 }
 
-/* line 161, ../../app/styles/00-base/_utils.scss */
+/* line 163, ../../app/styles/00-base/_utils.scss */
 
 .project-categories > li {
   display: inline-block;
 }
 
-/* line 164, ../../app/styles/00-base/_utils.scss */
+/* line 166, ../../app/styles/00-base/_utils.scss */
 
 .project-categories > li:after {
   content: ",";
 }
 
-/* line 167, ../../app/styles/00-base/_utils.scss */
+/* line 169, ../../app/styles/00-base/_utils.scss */
 
 .project-categories > li:last-of-type:after {
   content: "";
@@ -964,13 +1378,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -997,13 +1462,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -1111,13 +1627,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -1144,13 +1711,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -1245,7 +1863,7 @@ html:not(.loaded) .logo-container {
   padding: 0.75rem 0;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-section:not(:first-of-type):after {
   content: " ";
@@ -1302,13 +1920,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -1335,13 +2004,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -1484,13 +2204,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -1517,13 +2288,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -1634,7 +2456,7 @@ html:not(.loaded) .logo-container {
   }
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-talking-point:after {
   content: " ";
@@ -1665,6 +2487,13 @@ html:not(.loaded) .logo-container {
 
 /* line 58, ../../app/styles/02-molecules/_project-talking-point.scss */
 
+.roh-body .project-talking-point,
+.roh.body .project-talking-point {
+  color: #E89EAC;
+}
+
+/* line 58, ../../app/styles/02-molecules/_project-talking-point.scss */
+
 .redburn-body .project-talking-point,
 .redburn.body .project-talking-point {
   color: #FFC627;
@@ -1684,13 +2513,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -1717,13 +2597,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -1833,13 +2764,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -1866,13 +2848,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -2000,13 +3033,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -2033,13 +3117,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -2160,13 +3295,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -2193,13 +3379,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -2288,13 +3525,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -2321,13 +3609,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -2410,7 +3749,7 @@ html:not(.loaded) .logo-container {
   margin-right: 0.03em;
 }
 
-/* line 75, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 114, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .project-background-image {
   -webkit-transition: all 250ms ease 0s;
@@ -2429,23 +3768,23 @@ html:not(.loaded) .logo-container {
   overflow: hidden;
 }
 
-/* line 84, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 123, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .project-background-image img {
-  -webkit-transition: -webkit-transform 250ms ease 0s;
-  transition: transform 250ms ease 0s;
+  -webkit-transition: all 250ms ease 0s;
+  transition: all 250ms ease 0s;
   width: 100%;
   opacity: 0.75;
 }
 
 @supports (mix-blend-mode: screen) {
-  /* line 93, ../../app/styles/02-molecules/_project-background-image.scss */
+  /* line 60, ../../app/styles/02-molecules/_project-background-image.scss */
 
   .project-background-image:before {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -10rem;
     left: 0;
     content: " ";
     background-color: inherit;
@@ -2454,57 +3793,74 @@ html:not(.loaded) .logo-container {
   }
 }
 
-/* line 104, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 133, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .work-body .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .work-body .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
-/* line 34, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 84, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .work-body .project-background-image:after {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: -10rem;
   left: 0;
-  content: " ";
-  background-image: -webkit-linear-gradient(270deg, transparent 0, transparent 25%, currentColor 90%);
-  background-image: linear-gradient(180deg, transparent 0, transparent 25%, currentColor 90%);
-  background-size: 100% 100%;
+  content: ' ';
   z-index: 2;
+  opacity: 0.5;
+  background-image: -webkit-linear-gradient(135deg, currentColor 46%, transparent 49%, transparent 51%, currentColor 55%);
+  background-image: linear-gradient(-45deg, currentColor 46%, transparent 49%, transparent 51%, currentColor 55%);
+  background-size: 3px 3px !important;
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
-/* line 109, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 138, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .nav-item .project-background-image {
   opacity: 0;
+  padding: 1rem;
 }
 
-/* line 13, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 138, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.nav-item .project-background-image img {
-  -webkit-transform: scale(0) translate(31.25vw, -100vh);
-  transform: scale(0) translate(31.25vw, -100vh);
+  .nav-item .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 47, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .nav-item .project-background-image img {
+    width: 37.5vw;
+    margin-left: 100vw;
+  }
+}
+
+/* line 84, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .nav-item .project-background-image:after {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: -10rem;
   left: 0;
   content: ' ';
   z-index: 2;
+  opacity: 0.5;
   background-image: -webkit-linear-gradient(135deg, currentColor 46%, transparent 49%, transparent 51%, currentColor 55%);
   background-image: linear-gradient(-45deg, currentColor 46%, transparent 49%, transparent 51%, currentColor 55%);
   background-size: 3px 3px !important;
@@ -2514,7 +3870,7 @@ html:not(.loaded) .logo-container {
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 -body .project-background-image,
 .body .project-background-image {
@@ -2522,26 +3878,34 @@ html:not(.loaded) .logo-container {
   background-color: #303442;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
+}
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .page-transition.body .nav-item-default .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .page-transition.body .nav-item-default .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .intro-body .project-background-image,
 .intro.body .project-background-image {
@@ -2549,26 +3913,86 @@ html:not(.loaded) .logo-container {
   background-color: #303442;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
+}
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .intro.page-transition.body .nav-item-intro .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .intro.page-transition.body .nav-item-intro .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.roh-body .project-background-image,
+.roh.body .project-background-image {
+  color: #F6F6F6;
+  background-color: #F6F6F6;
+}
+
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.roh-body .nav-item-roh .project-background-image,
+.roh.body .nav-item-roh .project-background-image {
+  opacity: 1;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .roh-body .nav-item-roh .project-background-image,
+  .roh.body .nav-item-roh .project-background-image {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .roh-body .nav-item-roh .project-background-image img,
+  .roh.body .nav-item-roh .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.roh.page-transition.body .nav-item-roh .project-background-image {
+  opacity: 1;
+  padding: 0rem;
+  overflow: visible;
+}
+
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
+
+.roh.page-transition.body .nav-item-roh .project-background-image img {
+  width: 100%;
+  margin-left: 0;
+}
+
+/* uncss:ignore */
+
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .redburn-body .project-background-image,
 .redburn.body .project-background-image {
@@ -2576,37 +4000,51 @@ html:not(.loaded) .logo-container {
   background-color: #191919;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .redburn-body .nav-item-redburn .project-background-image,
 .redburn.body .nav-item-redburn .project-background-image {
-  opacity: 0.75;
+  opacity: 1;
+  padding: 1rem;
 }
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.redburn-body .nav-item-redburn .project-background-image img,
-.redburn.body .nav-item-redburn .project-background-image img {
-  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
-  transform: scale(0.5) translate(6.25vw, -25vh);
+  .redburn-body .nav-item-redburn .project-background-image,
+  .redburn.body .nav-item-redburn .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .redburn-body .nav-item-redburn .project-background-image img,
+  .redburn.body .nav-item-redburn .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .redburn.page-transition.body .nav-item-redburn .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .redburn.page-transition.body .nav-item-redburn .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .audiences-body .project-background-image,
 .audiences.body .project-background-image {
@@ -2614,37 +4052,51 @@ html:not(.loaded) .logo-container {
   background-color: #292935;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .audiences-body .nav-item-audiences .project-background-image,
 .audiences.body .nav-item-audiences .project-background-image {
-  opacity: 0.75;
+  opacity: 1;
+  padding: 1rem;
 }
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.audiences-body .nav-item-audiences .project-background-image img,
-.audiences.body .nav-item-audiences .project-background-image img {
-  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
-  transform: scale(0.5) translate(6.25vw, -25vh);
+  .audiences-body .nav-item-audiences .project-background-image,
+  .audiences.body .nav-item-audiences .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .audiences-body .nav-item-audiences .project-background-image img,
+  .audiences.body .nav-item-audiences .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .audiences.page-transition.body .nav-item-audiences .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .audiences.page-transition.body .nav-item-audiences .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .national-theatre-body .project-background-image,
 .national-theatre.body .project-background-image {
@@ -2652,37 +4104,51 @@ html:not(.loaded) .logo-container {
   background-color: #303442;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .national-theatre-body .nav-item-national-theatre .project-background-image,
 .national-theatre.body .nav-item-national-theatre .project-background-image {
-  opacity: 0.75;
+  opacity: 1;
+  padding: 1rem;
 }
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.national-theatre-body .nav-item-national-theatre .project-background-image img,
-.national-theatre.body .nav-item-national-theatre .project-background-image img {
-  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
-  transform: scale(0.5) translate(6.25vw, -25vh);
+  .national-theatre-body .nav-item-national-theatre .project-background-image,
+  .national-theatre.body .nav-item-national-theatre .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .national-theatre-body .nav-item-national-theatre .project-background-image img,
+  .national-theatre.body .nav-item-national-theatre .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .national-theatre.page-transition.body .nav-item-national-theatre .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .national-theatre.page-transition.body .nav-item-national-theatre .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .eavis-body .project-background-image,
 .eavis.body .project-background-image {
@@ -2690,37 +4156,51 @@ html:not(.loaded) .logo-container {
   background-color: #222222;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .eavis-body .nav-item-eavis .project-background-image,
 .eavis.body .nav-item-eavis .project-background-image {
-  opacity: 0.75;
+  opacity: 1;
+  padding: 1rem;
 }
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.eavis-body .nav-item-eavis .project-background-image img,
-.eavis.body .nav-item-eavis .project-background-image img {
-  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
-  transform: scale(0.5) translate(6.25vw, -25vh);
+  .eavis-body .nav-item-eavis .project-background-image,
+  .eavis.body .nav-item-eavis .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .eavis-body .nav-item-eavis .project-background-image img,
+  .eavis.body .nav-item-eavis .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .eavis.page-transition.body .nav-item-eavis .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .eavis.page-transition.body .nav-item-eavis .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .android-body .project-background-image,
 .android.body .project-background-image {
@@ -2728,37 +4208,51 @@ html:not(.loaded) .logo-container {
   background-color: #141926;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .android-body .nav-item-android .project-background-image,
 .android.body .nav-item-android .project-background-image {
-  opacity: 0.75;
+  opacity: 1;
+  padding: 1rem;
 }
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.android-body .nav-item-android .project-background-image img,
-.android.body .nav-item-android .project-background-image img {
-  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
-  transform: scale(0.5) translate(6.25vw, -25vh);
+  .android-body .nav-item-android .project-background-image,
+  .android.body .nav-item-android .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .android-body .nav-item-android .project-background-image img,
+  .android.body .nav-item-android .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .android.page-transition.body .nav-item-android .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .android.page-transition.body .nav-item-android .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* uncss:ignore */
 
-/* line 135, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 165, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .guardian-body .project-background-image,
 .guardian.body .project-background-image {
@@ -2766,45 +4260,110 @@ html:not(.loaded) .logo-container {
   background-color: #15296B;
 }
 
-/* line 140, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .guardian-body .nav-item-guardian .project-background-image,
 .guardian.body .nav-item-guardian .project-background-image {
-  opacity: 0.75;
+  opacity: 1;
+  padding: 1rem;
 }
 
-/* line 20, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 640px) {
+  /* line 170, ../../app/styles/02-molecules/_project-background-image.scss */
 
-.guardian-body .nav-item-guardian .project-background-image img,
-.guardian.body .nav-item-guardian .project-background-image img {
-  -webkit-transform: scale(0.5) translate(6.25vw, -25vh);
-  transform: scale(0.5) translate(6.25vw, -25vh);
+  .guardian-body .nav-item-guardian .project-background-image,
+  .guardian.body .nav-item-guardian .project-background-image {
+    padding: 2rem;
+  }
 }
 
-/* line 147, ../../app/styles/02-molecules/_project-background-image.scss */
+@media screen and (min-width: 960px) {
+  /* line 38, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .guardian-body .nav-item-guardian .project-background-image img,
+  .guardian.body .nav-item-guardian .project-background-image img {
+    width: 37.5vw;
+    margin-left: 31.25vw;
+  }
+}
+
+/* line 177, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .guardian.page-transition.body .nav-item-guardian .project-background-image {
   opacity: 1;
+  padding: 0rem;
+  overflow: visible;
 }
 
-/* line 28, ../../app/styles/02-molecules/_project-background-image.scss */
+/* line 51, ../../app/styles/02-molecules/_project-background-image.scss */
 
 .guardian.page-transition.body .nav-item-guardian .project-background-image img {
-  -webkit-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
+  width: 100%;
+  margin-left: 0;
 }
 
 /**
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -2831,13 +4390,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -2978,6 +4588,21 @@ html:not(.loaded) .logo-container {
 
 /* line 72, ../../app/styles/02-molecules/_project-section-background-image.scss */
 
+.roh-body .project-section-background-image:after,
+.roh.body .project-section-background-image:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: " ";
+  background-image: -webkit-linear-gradient(270deg, transparent 10%, #F6F6F6 80%);
+  background-image: linear-gradient(180deg, transparent 10%, #F6F6F6 80%);
+  background-size: 100% 100%;
+}
+
+/* line 72, ../../app/styles/02-molecules/_project-section-background-image.scss */
+
 .redburn-body .project-section-background-image:after,
 .redburn.body .project-section-background-image:after {
   position: absolute;
@@ -3057,13 +4682,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -3090,13 +4766,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -3201,7 +4928,7 @@ html:not(.loaded) .logo-container {
   content: attr(alt);
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-section-image:after {
   content: " ";
@@ -3232,13 +4959,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -3265,13 +5043,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -3382,13 +5211,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -3415,13 +5295,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -3539,7 +5470,7 @@ html:not(.loaded) .logo-container {
   }
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-image--caption:after {
   content: " ";
@@ -3585,6 +5516,13 @@ html:not(.loaded) .logo-container {
 }
 
 /* line 76, ../../app/styles/02-molecules/_project-image.scss */
+
+/* line 76, ../../app/styles/02-molecules/_project-image.scss */
+
+.roh-body .project-image,
+.roh.body .project-image {
+  color: #C21B35;
+}
 
 /* line 76, ../../app/styles/02-molecules/_project-image.scss */
 
@@ -3646,6 +5584,18 @@ html:not(.loaded) .logo-container {
 
 .intro.body .back-link:hover {
   color: #f4373b;
+}
+
+/* line 31, ../../app/styles/02-molecules/_back-link.scss */
+
+.roh.body .back-link {
+  color: #C21B35;
+}
+
+/* line 34, ../../app/styles/02-molecules/_back-link.scss */
+
+.roh.body .back-link:hover {
+  color: #191919;
 }
 
 /* line 31, ../../app/styles/02-molecules/_back-link.scss */
@@ -3724,13 +5674,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -3757,13 +5758,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -3901,7 +5953,7 @@ html:not(.loaded) .logo-container {
   opacity: 0.95;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-title-unit:after {
   content: " ";
@@ -3913,7 +5965,7 @@ html:not(.loaded) .logo-container {
   right: 0;
   bottom: -0.9rem;
   left: 0;
-  opacity: 0.125;
+  opacity: 0.5;
   z-index: -1;
   -webkit-transition: all 250ms ease 0s;
   transition: all 250ms ease 0s;
@@ -4022,6 +6074,60 @@ html:not(.loaded) .logo-container {
 /* line 180, ../../app/styles/03-compounds/_project-title-unit.scss */
 
 .intro-body .page-content .project-title-unit .project-meta-data {
+  opacity: 0;
+  bottom: 0;
+  height: 0;
+}
+
+/* line 132, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh.body .project-title-unit:before {
+  background-color: #F6F6F6;
+}
+
+/* line 136, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh.body .project-title-unit .project-title {
+  color: #191919;
+}
+
+/* line 140, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh.body .project-title-unit .project-meta-data {
+  color: #191919;
+}
+
+/* line 144, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh.body .project-title-unit .phone-link,
+.roh.body .project-title-unit .email-link,
+.roh.body .project-title-unit .project-categories {
+  color: #C21B35;
+}
+
+/* line 156, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh.body #roh .project-title-unit .project-client,
+.roh-body .page-content .project-title-unit .project-client {
+  opacity: 1;
+}
+
+/* line 160, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh.body #roh .project-title-unit .project-meta-data,
+.roh-body .page-content .project-title-unit .project-meta-data {
+  opacity: 1;
+  bottom: -2rem;
+  height: 1rem;
+}
+
+/* line 166, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+/* line 176, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+/* line 180, ../../app/styles/03-compounds/_project-title-unit.scss */
+
+.roh-body .page-content .project-title-unit .project-meta-data {
   opacity: 0;
   bottom: 0;
   height: 0;
@@ -4355,13 +6461,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -4388,13 +6545,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -4478,6 +6686,14 @@ html:not(.loaded) .logo-container {
 }
 
 /* line 11, ../../app/styles/03-compounds/_project-basics.scss */
+
+/* line 11, ../../app/styles/03-compounds/_project-basics.scss */
+
+.roh.body .project-basics,
+.roh.body .project-basics .project-image {
+  background-color: #C21B35;
+  color: #fff;
+}
 
 /* line 11, ../../app/styles/03-compounds/_project-basics.scss */
 
@@ -4655,19 +6871,19 @@ html:not(.loaded) .logo-container {
   text-transform: capitalize;
 }
 
-/* line 173, ../../app/styles/00-base/_utils.scss */
+/* line 175, ../../app/styles/00-base/_utils.scss */
 
 .project-basics .project-categories > li {
   display: list-item;
 }
 
-/* line 176, ../../app/styles/00-base/_utils.scss */
+/* line 178, ../../app/styles/00-base/_utils.scss */
 
 .project-basics .project-categories > li:after {
   content: "";
 }
 
-/* line 179, ../../app/styles/00-base/_utils.scss */
+/* line 181, ../../app/styles/00-base/_utils.scss */
 
 .project-basics .project-categories > li:last-of-type:after {
   content: "";
@@ -4714,13 +6930,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -4747,13 +7014,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -4862,6 +7180,13 @@ html:not(.loaded) .logo-container {
 
 /* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
 
+.roh.body .image-gallery {
+  color: #C21B35;
+  background-color: rgba(246, 246, 246, 0.75);
+}
+
+/* line 57, ../../app/styles/03-compounds/_image-gallery.scss */
+
 .redburn.body .image-gallery {
   color: #3E8EDE;
   background-color: rgba(25, 25, 25, 0.75);
@@ -4923,7 +7248,7 @@ html:not(.loaded) .logo-container {
   }
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .image-gallery--caption:after {
   content: " ";
@@ -4954,13 +7279,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -4987,13 +7363,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -5200,6 +7627,66 @@ html:not(.loaded) .logo-container {
 
 .intro.body .controls .control-previous {
   display: none;
+}
+
+/* line 62, ../../app/styles/03-compounds/_controls.scss */
+
+.roh.body .controls .control {
+  color: #C21B35;
+  background-color: #f6f6f6;
+  background-size: 6px 6px !important;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 74, ../../app/styles/03-compounds/_controls.scss */
+
+.roh.body .controls .control:hover,
+.roh.body .controls .control:focus {
+  opacity: 1;
+  background-color: rgba(246, 246, 246, 0);
+}
+
+/* line 80, ../../app/styles/03-compounds/_controls.scss */
+
+.roh.body .controls .control:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 9.375vw;
+  height: 9.375vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* line 102, ../../app/styles/03-compounds/_controls.scss */
+
+.roh.body .controls .control-next,
+.roh.body .controls .control-previous {
+  background-image: -webkit-linear-gradient(135deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
+  background-image: linear-gradient(-45deg, transparent 46%, currentColor 49%, currentColor 51%, transparent 55%);
+}
+
+/* line 107, ../../app/styles/03-compounds/_controls.scss */
+
+.roh.body .controls .control-next:before,
+.roh.body .controls .control-previous:before {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#C21B35' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
+}
+
+/* line 113, ../../app/styles/03-compounds/_controls.scss */
+
+.roh.body .controls .control-next:hover:before,
+.roh.body .controls .control-next:focus:before,
+.roh.body .controls .control-previous:hover:before,
+.roh.body .controls .control-previous:focus:before {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 130 243' preserveAspectRatio='xMidYMid meet' fill='none'  ><polyline stroke-width='16' stroke='#191919' stroke-linecap='round' stroke-linejoin='round' points='121.137085 234.137085 8 121 121.137085 8'></polyline></svg>");
 }
 
 /* line 62, ../../app/styles/03-compounds/_controls.scss */
@@ -5566,13 +8053,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -5599,13 +8137,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -5700,13 +8289,64 @@ html:not(.loaded) .logo-container {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -6035,13 +8675,64 @@ svg:not(:root) {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -6205,20 +8896,20 @@ body {
   font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
 }
 
-/* line 224, ../../app/styles/00-base/_utils.scss */
+/* line 226, ../../app/styles/00-base/_utils.scss */
 
 ::-webkit-scrollbar {
   width: 0.5rem;
   height: 0.5rem;
 }
 
-/* line 229, ../../app/styles/00-base/_utils.scss */
+/* line 231, ../../app/styles/00-base/_utils.scss */
 
 ::-webkit-scrollbar-thumb {
   background: #9297a7;
 }
 
-/* line 234, ../../app/styles/00-base/_utils.scss */
+/* line 236, ../../app/styles/00-base/_utils.scss */
 
 ::-webkit-scrollbar-track {
   background: #d9dae0;
@@ -6232,13 +8923,13 @@ body {
     scrollbar-track-color: var(--scrollbar-track);
   }
 
-  /* line 250, ../../app/styles/00-base/_utils.scss */
+  /* line 252, ../../app/styles/00-base/_utils.scss */
 
   ::-webkit-scrollbar-thumb {
     background: var(--scrollbar-thumb);
   }
 
-  /* line 254, ../../app/styles/00-base/_utils.scss */
+  /* line 256, ../../app/styles/00-base/_utils.scss */
 
   ::-webkit-scrollbar-track {
     background: var(--scrollbar-track);
@@ -6290,6 +8981,32 @@ body {
   background: #f4373b;
   text-shadow: none;
   color: #303442;
+}
+
+/* line 83, ../../app/styles/04-templates/_core.scss */
+
+/* line 74, ../../app/styles/04-templates/_core.scss */
+
+.roh-body,
+.roh.body {
+  --scrollbar-track: rgba(82, 11, 22, 0.75);
+  --scrollbar-thumb: #C21B35;
+}
+
+/* line 77, ../../app/styles/04-templates/_core.scss */
+
+.roh-body *::-moz-selection,
+.roh.body *::-moz-selection {
+  background: #C21B35;
+  text-shadow: none;
+  color: #F6F6F6;
+}
+
+.roh-body *::selection,
+.roh.body *::selection {
+  background: #C21B35;
+  text-shadow: none;
+  color: #F6F6F6;
 }
 
 /* line 83, ../../app/styles/04-templates/_core.scss */
@@ -6456,13 +9173,64 @@ body {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /**
  * @license
@@ -6489,13 +9257,64 @@ body {
  * Mixin scrollbar
  */
 
-/* line 334, ../../app/styles/00-base/_utils.scss */
+/* uncss:ignore */
 
-/* line 338, ../../app/styles/00-base/_utils.scss */
+/* line 337, ../../app/styles/00-base/_utils.scss */
 
-/* line 346, ../../app/styles/00-base/_utils.scss */
+body.grid {
+  color: #f00;
+}
 
-/* line 361, ../../app/styles/00-base/_utils.scss */
+/* line 341, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before,
+body.grid:after {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* line 349, ../../app/styles/00-base/_utils.scss */
+
+body.grid:before {
+  /* @include background-columns($count:16, $marginWidth:0.25rem, $gutterWidth:0.5rem ); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  /* background-image: linear-gradient(90deg,
+
+                                      $colColour  0,
+                                      $colColour  1px,
+
+                                      transparent 1px,
+                                      transparent calc( 0%   +   0 / 2),
+
+                                      $colColour  calc( 0%   +   0 / 2),
+                                      $colColour  calc( 100% - ( 0 / 2) ),
+
+                                      transparent calc( 100% - 1px - ( 0 / 2) ),
+                                      transparent calc( 100% - 1px ),
+
+                                      $colColour  calc( 100% - 1px ),
+                                      $colColour  100%
+
+                                      ); */
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  /* background-size: calc(100% / 16) 100%; */
+  background-size: 6.25vw 100%;
+  background-position: 0px 0px;
+  opacity: 0.05;
+}
+
+/* uncss:ignore */
+
+/* line 364, ../../app/styles/00-base/_utils.scss */
 
 /* typeset.css */
 
@@ -6578,7 +9397,7 @@ body {
   margin-right: 0.03em;
 }
 
-/* line 13, ../../app/styles/04-templates/_page.scss */
+/* line 16, ../../app/styles/04-templates/_page.scss */
 
 .container {
   position: fixed;
@@ -6592,7 +9411,7 @@ body {
   letter-spacing: 0;
 }
 
-/* line 20, ../../app/styles/04-templates/_page.scss */
+/* line 23, ../../app/styles/04-templates/_page.scss */
 
 .work-body .container {
   position: absolute;
@@ -6600,7 +9419,7 @@ body {
   left: 0;
 }
 
-/* line 30, ../../app/styles/04-templates/_page.scss */
+/* line 60, ../../app/styles/04-templates/_page.scss */
 
 .page-content,
 .nav-content {
@@ -6617,7 +9436,7 @@ body {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 30, ../../app/styles/04-templates/_page.scss */
+  /* line 60, ../../app/styles/04-templates/_page.scss */
 
   .page-content,
   .nav-content {
@@ -6625,11 +9444,11 @@ body {
   }
 }
 
-/* line 53, ../../app/styles/04-templates/_page.scss */
+/* line 85, ../../app/styles/04-templates/_page.scss */
 
 .nav-items {
-  width: -webkit-calc( ( 100vw / 16 * 11 * 8 ) - (2 * 3.125vw) );
-  width: calc( ( 100vw / 16 * 11 * 8 ) - (2 * 3.125vw) );
+  width: -webkit-calc( ( 68.75vw * 9 ) - (2 * 3.125vw) );
+  width: calc( ( 68.75vw * 9 ) - (2 * 3.125vw) );
   margin: 0;
   padding: 0;
   list-style: none;
@@ -6644,21 +9463,21 @@ body {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 53, ../../app/styles/04-templates/_page.scss */
+  /* line 85, ../../app/styles/04-templates/_page.scss */
 
   .nav-items {
-    width: -webkit-calc( ( 100vw / 16 * 9 * 8 ) - (2 * 3.125vw) );
-    width: calc( ( 100vw / 16 * 9 * 8 ) - (2 * 3.125vw) );
+    width: -webkit-calc( ( 56.25vw * 9 ) - (2 * 3.125vw) );
+    width: calc( ( 56.25vw * 9 ) - (2 * 3.125vw) );
   }
 }
 
-/* line 76, ../../app/styles/04-templates/_page.scss */
+/* line 108, ../../app/styles/04-templates/_page.scss */
 
 .nav-content .controls {
   z-index: 1;
 }
 
-/* line 83, ../../app/styles/04-templates/_page.scss */
+/* line 115, ../../app/styles/04-templates/_page.scss */
 
 .nav-item {
   position: relative;
@@ -6678,112 +9497,199 @@ body {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 83, ../../app/styles/04-templates/_page.scss */
+  /* line 115, ../../app/styles/04-templates/_page.scss */
 
   .nav-item {
     width: 56.25vw;
   }
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 32, ../../app/styles/04-templates/_page.scss */
+
+.nav-item:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 68.75vw;
+  z-index: -1;
+  opacity: 0.125;
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  background-size: -webkit-calc( (100% - 1px) / 3) 100%;
+  background-size: calc( (100% - 1px) / 3) 100%;
+  background-position: 1px 0px;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 32, ../../app/styles/04-templates/_page.scss */
+
+  .nav-item:before {
+    width: 56.25vw;
+  }
+}
+
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .nav-items {
   margin-left: -webkit-calc( ( -0 * 100% ) - ( 1 * 3.125vw ) );
   margin-left: calc( ( -0 * 100% ) - ( 1 * 3.125vw ) );
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .intro .nav-items {
   margin-left: -webkit-calc( ( -0 * 100% ) - ( 1 * 3.125vw ) );
   margin-left: calc( ( -0 * 100% ) - ( 1 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-intro:before {
+  color: #f4373b;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .intro .nav-item-intro {
   opacity: 1;
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
-.redburn .nav-items {
+.roh .nav-items {
   margin-left: -webkit-calc( ( -1 * 100% ) - ( 3 * 3.125vw ) );
   margin-left: calc( ( -1 * 100% ) - ( 3 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-roh:before {
+  color: #C21B35;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
+
+.roh .nav-item-roh {
+  opacity: 1;
+}
+
+/* line 157, ../../app/styles/04-templates/_page.scss */
+
+.redburn .nav-items {
+  margin-left: -webkit-calc( ( -2 * 100% ) - ( 5 * 3.125vw ) );
+  margin-left: calc( ( -2 * 100% ) - ( 5 * 3.125vw ) );
+}
+
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-redburn:before {
+  color: #3E8EDE;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .redburn .nav-item-redburn {
   opacity: 1;
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .audiences .nav-items {
-  margin-left: -webkit-calc( ( -2 * 100% ) - ( 5 * 3.125vw ) );
-  margin-left: calc( ( -2 * 100% ) - ( 5 * 3.125vw ) );
+  margin-left: -webkit-calc( ( -3 * 100% ) - ( 7 * 3.125vw ) );
+  margin-left: calc( ( -3 * 100% ) - ( 7 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-audiences:before {
+  color: #46dd8e;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .audiences .nav-item-audiences {
   opacity: 1;
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .nav-items {
-  margin-left: -webkit-calc( ( -3 * 100% ) - ( 7 * 3.125vw ) );
-  margin-left: calc( ( -3 * 100% ) - ( 7 * 3.125vw ) );
+  margin-left: -webkit-calc( ( -4 * 100% ) - ( 9 * 3.125vw ) );
+  margin-left: calc( ( -4 * 100% ) - ( 9 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-national-theatre:before {
+  color: #E6C4C4;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .nav-item-national-theatre {
   opacity: 1;
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .eavis .nav-items {
-  margin-left: -webkit-calc( ( -4 * 100% ) - ( 9 * 3.125vw ) );
-  margin-left: calc( ( -4 * 100% ) - ( 9 * 3.125vw ) );
+  margin-left: -webkit-calc( ( -5 * 100% ) - ( 11 * 3.125vw ) );
+  margin-left: calc( ( -5 * 100% ) - ( 11 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-eavis:before {
+  color: #36e2ae;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .eavis .nav-item-eavis {
   opacity: 1;
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .android .nav-items {
-  margin-left: -webkit-calc( ( -5 * 100% ) - ( 11 * 3.125vw ) );
-  margin-left: calc( ( -5 * 100% ) - ( 11 * 3.125vw ) );
+  margin-left: -webkit-calc( ( -6 * 100% ) - ( 13 * 3.125vw ) );
+  margin-left: calc( ( -6 * 100% ) - ( 13 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-android:before {
+  color: #00FF8D;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .android .nav-item-android {
   opacity: 1;
 }
 
-/* line 120, ../../app/styles/04-templates/_page.scss */
+/* line 157, ../../app/styles/04-templates/_page.scss */
 
 .guardian .nav-items {
-  margin-left: -webkit-calc( ( -6 * 100% ) - ( 13 * 3.125vw ) );
-  margin-left: calc( ( -6 * 100% ) - ( 13 * 3.125vw ) );
+  margin-left: -webkit-calc( ( -7 * 100% ) - ( 15 * 3.125vw ) );
+  margin-left: calc( ( -7 * 100% ) - ( 15 * 3.125vw ) );
 }
 
-/* line 125, ../../app/styles/04-templates/_page.scss */
+/* line 163, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-guardian:before {
+  color: #17a3e2;
+}
+
+/* line 167, ../../app/styles/04-templates/_page.scss */
 
 .guardian .nav-item-guardian {
   opacity: 1;
 }
 
-/* line 260, ../../app/styles/04-templates/_page.scss */
+/* line 302, ../../app/styles/04-templates/_page.scss */
 
 .project-intro {
   -webkit-transition: 250ms;
@@ -6815,7 +9721,7 @@ body {
   letter-spacing: -0.06em;
 }
 
-/* line 197, ../../app/styles/04-templates/_page.scss */
+/* line 239, ../../app/styles/04-templates/_page.scss */
 
 .project-intro:before {
   content: '';
@@ -6827,7 +9733,7 @@ body {
   transition-property: height, min-height, max-height;
 }
 
-/* line 219, ../../app/styles/04-templates/_page.scss */
+/* line 261, ../../app/styles/04-templates/_page.scss */
 
 .project-intro:before {
   -webkit-transition-delay: 125ms;
@@ -6837,7 +9743,7 @@ body {
   max-height: 110vh;
 }
 
-/* line 283, ../../app/styles/04-templates/_page.scss */
+/* line 325, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   position: absolute;
@@ -6874,7 +9780,7 @@ body {
   letter-spacing: -0.06em;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-load-content:after {
   content: " ";
@@ -6887,7 +9793,7 @@ body {
   left: 0;
 }
 
-/* line 152, ../../app/styles/04-templates/_page.scss */
+/* line 194, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   content: ' ';
@@ -6903,56 +9809,63 @@ body {
   background-image: linear-gradient(to bottom, transparent, currentColor 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-intro .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(48, 52, 66, 0), #303442 2rem);
   background-image: linear-gradient(to bottom, rgba(48, 52, 66, 0), #303442 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
+
+.nav-item-roh .project-load-content:before {
+  background-image: -webkit-linear-gradient(top, rgba(246, 246, 246, 0), #f6f6f6 2rem);
+  background-image: linear-gradient(to bottom, rgba(246, 246, 246, 0), #f6f6f6 2rem);
+}
+
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-redburn .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0), #191919 2rem);
   background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0), #191919 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-audiences .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(41, 41, 53, 0), #292935 2rem);
   background-image: linear-gradient(to bottom, rgba(41, 41, 53, 0), #292935 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-national-theatre .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(48, 52, 66, 0), #303442 2rem);
   background-image: linear-gradient(to bottom, rgba(48, 52, 66, 0), #303442 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-eavis .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(34, 34, 34, 0), #222222 2rem);
   background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0), #222222 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-android .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(20, 25, 38, 0), #141926 2rem);
   background-image: linear-gradient(to bottom, rgba(20, 25, 38, 0), #141926 2rem);
 }
 
-/* line 173, ../../app/styles/04-templates/_page.scss */
+/* line 215, ../../app/styles/04-templates/_page.scss */
 
 .nav-item-guardian .project-load-content:before {
   background-image: -webkit-linear-gradient(top, rgba(21, 41, 107, 0), #15296b 2rem);
   background-image: linear-gradient(to bottom, rgba(21, 41, 107, 0), #15296b 2rem);
 }
 
-/* line 315, ../../app/styles/04-templates/_page.scss */
+/* line 357, ../../app/styles/04-templates/_page.scss */
 
 :target .project-intro {
   -webkit-transition-delay: 250ms;
@@ -6961,7 +9874,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 :target .project-intro:before {
   height: 56vh;
@@ -6969,7 +9882,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 320, ../../app/styles/04-templates/_page.scss */
+/* line 362, ../../app/styles/04-templates/_page.scss */
 
 :target .project-load-content {
   bottom: 0;
@@ -6977,7 +9890,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .intro.body .nav-item-intro .project-intro {
   -webkit-transition-delay: 250ms;
@@ -6986,7 +9899,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .intro.body .nav-item-intro .project-intro:before {
   height: 56vh;
@@ -6994,7 +9907,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .intro.page-transition.body .nav-item-intro .project-intro {
   -webkit-transition-delay: 0;
@@ -7003,7 +9916,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .intro.page-transition.body .nav-item-intro .project-intro:before {
   height: 56vh;
@@ -7011,7 +9924,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .intro.body .nav-item-intro .project-load-content {
   bottom: 0;
@@ -7019,7 +9932,49 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
+
+.roh.body .nav-item-roh .project-intro {
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+  max-height: 76vh;
+  margin-bottom: 24vh;
+}
+
+/* line 271, ../../app/styles/04-templates/_page.scss */
+
+.roh.body .nav-item-roh .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 377, ../../app/styles/04-templates/_page.scss */
+
+.roh.page-transition.body .nav-item-roh .project-intro {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  max-height: 150vh;
+  margin-bottom: 0;
+}
+
+/* line 271, ../../app/styles/04-templates/_page.scss */
+
+.roh.page-transition.body .nav-item-roh .project-intro:before {
+  height: 56vh;
+  min-height: 56vh;
+  max-height: 56vh;
+}
+
+/* line 382, ../../app/styles/04-templates/_page.scss */
+
+.roh.body .nav-item-roh .project-load-content {
+  bottom: 0;
+  -webkit-transition-delay: 250ms;
+  transition-delay: 250ms;
+}
+
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .redburn.body .nav-item-redburn .project-intro {
   -webkit-transition-delay: 250ms;
@@ -7028,7 +9983,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .redburn.body .nav-item-redburn .project-intro:before {
   height: 56vh;
@@ -7036,7 +9991,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .redburn.page-transition.body .nav-item-redburn .project-intro {
   -webkit-transition-delay: 0;
@@ -7045,7 +10000,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .redburn.page-transition.body .nav-item-redburn .project-intro:before {
   height: 56vh;
@@ -7053,7 +10008,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .redburn.body .nav-item-redburn .project-load-content {
   bottom: 0;
@@ -7061,7 +10016,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .audiences.body .nav-item-audiences .project-intro {
   -webkit-transition-delay: 250ms;
@@ -7070,7 +10025,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .audiences.body .nav-item-audiences .project-intro:before {
   height: 56vh;
@@ -7078,7 +10033,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .audiences.page-transition.body .nav-item-audiences .project-intro {
   -webkit-transition-delay: 0;
@@ -7087,7 +10042,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .audiences.page-transition.body .nav-item-audiences .project-intro:before {
   height: 56vh;
@@ -7095,7 +10050,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .audiences.body .nav-item-audiences .project-load-content {
   bottom: 0;
@@ -7103,7 +10058,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-intro {
   -webkit-transition-delay: 250ms;
@@ -7112,7 +10067,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-intro:before {
   height: 56vh;
@@ -7120,7 +10075,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.page-transition.body .nav-item-national-theatre .project-intro {
   -webkit-transition-delay: 0;
@@ -7129,7 +10084,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.page-transition.body .nav-item-national-theatre .project-intro:before {
   height: 56vh;
@@ -7137,7 +10092,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre.body .nav-item-national-theatre .project-load-content {
   bottom: 0;
@@ -7145,7 +10100,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .eavis.body .nav-item-eavis .project-intro {
   -webkit-transition-delay: 250ms;
@@ -7154,7 +10109,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .eavis.body .nav-item-eavis .project-intro:before {
   height: 56vh;
@@ -7162,7 +10117,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .eavis.page-transition.body .nav-item-eavis .project-intro {
   -webkit-transition-delay: 0;
@@ -7171,7 +10126,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .eavis.page-transition.body .nav-item-eavis .project-intro:before {
   height: 56vh;
@@ -7179,7 +10134,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .eavis.body .nav-item-eavis .project-load-content {
   bottom: 0;
@@ -7187,7 +10142,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .android.body .nav-item-android .project-intro {
   -webkit-transition-delay: 250ms;
@@ -7196,7 +10151,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .android.body .nav-item-android .project-intro:before {
   height: 56vh;
@@ -7204,7 +10159,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .android.page-transition.body .nav-item-android .project-intro {
   -webkit-transition-delay: 0;
@@ -7213,7 +10168,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .android.page-transition.body .nav-item-android .project-intro:before {
   height: 56vh;
@@ -7221,7 +10176,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .android.body .nav-item-android .project-load-content {
   bottom: 0;
@@ -7229,7 +10184,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 330, ../../app/styles/04-templates/_page.scss */
+/* line 372, ../../app/styles/04-templates/_page.scss */
 
 .guardian.body .nav-item-guardian .project-intro {
   -webkit-transition-delay: 250ms;
@@ -7238,7 +10193,7 @@ body {
   margin-bottom: 24vh;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .guardian.body .nav-item-guardian .project-intro:before {
   height: 56vh;
@@ -7246,7 +10201,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 335, ../../app/styles/04-templates/_page.scss */
+/* line 377, ../../app/styles/04-templates/_page.scss */
 
 .guardian.page-transition.body .nav-item-guardian .project-intro {
   -webkit-transition-delay: 0;
@@ -7255,7 +10210,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .guardian.page-transition.body .nav-item-guardian .project-intro:before {
   height: 56vh;
@@ -7263,7 +10218,7 @@ body {
   max-height: 56vh;
 }
 
-/* line 340, ../../app/styles/04-templates/_page.scss */
+/* line 382, ../../app/styles/04-templates/_page.scss */
 
 .guardian.body .nav-item-guardian .project-load-content {
   bottom: 0;
@@ -7271,7 +10226,7 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 347, ../../app/styles/04-templates/_page.scss */
+/* line 389, ../../app/styles/04-templates/_page.scss */
 
 .info-body .page-content .project-intro,
 .work-body .page-content .project-intro {
@@ -7281,7 +10236,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 209, ../../app/styles/04-templates/_page.scss */
+/* line 251, ../../app/styles/04-templates/_page.scss */
 
 .info-body .page-content .project-intro:before,
 .work-body .page-content .project-intro:before {
@@ -7295,7 +10250,7 @@ body {
 
 /* uncss:ignore */
 
-/* line 354, ../../app/styles/04-templates/_page.scss */
+/* line 396, ../../app/styles/04-templates/_page.scss */
 
 .page-transition.body .page-content .project-intro {
   -webkit-transition-delay: 0;
@@ -7304,7 +10259,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 229, ../../app/styles/04-templates/_page.scss */
+/* line 271, ../../app/styles/04-templates/_page.scss */
 
 .page-transition.body .page-content .project-intro:before {
   height: 56vh;
@@ -7314,7 +10269,7 @@ body {
 
 /* uncss:ignore */
 
-/* line 360, ../../app/styles/04-templates/_page.scss */
+/* line 402, ../../app/styles/04-templates/_page.scss */
 
 .page-transition :target .project-load-content,
 .page-transition.body .nav-item .project-load-content {
@@ -7323,7 +10278,7 @@ body {
   transition-delay: 0;
 }
 
-/* line 371, ../../app/styles/04-templates/_page.scss */
+/* line 413, ../../app/styles/04-templates/_page.scss */
 
 .index-content {
   position: absolute;
@@ -7331,7 +10286,7 @@ body {
   height: 0;
 }
 
-/* line 379, ../../app/styles/04-templates/_page.scss */
+/* line 421, ../../app/styles/04-templates/_page.scss */
 
 .nav-content,
 .page-content {
@@ -7339,14 +10294,14 @@ body {
   display: none;
 }
 
-/* line 385, ../../app/styles/04-templates/_page.scss */
+/* line 427, ../../app/styles/04-templates/_page.scss */
 
 .loaded .page-transition .nav-content,
 .loaded .page-transition .page-content {
   display: block;
 }
 
-/* line 391, ../../app/styles/04-templates/_page.scss */
+/* line 433, ../../app/styles/04-templates/_page.scss */
 
 .loaded .nav-body .nav-content,
 .loaded .info-body .info-content,
@@ -7355,20 +10310,48 @@ body {
   display: block;
 }
 
-/* line 401, ../../app/styles/04-templates/_page.scss */
+/* line 32, ../../app/styles/04-templates/_page.scss */
+
+.loaded .info-body .info-content:before,
+.loaded .work-body .work-content:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 68.75vw;
+  z-index: -1;
+  opacity: 0.125;
+  background-image: -webkit-linear-gradient(0deg, transparent -webkit-calc( 100% - 1px), currentColor 100%);
+  background-image: linear-gradient(90deg, transparent calc( 100% - 1px ), currentColor 100%);
+  background-size: -webkit-calc( (100% - 1px) / 3) 100%;
+  background-size: calc( (100% - 1px) / 3) 100%;
+  background-position: 1px 0px;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 32, ../../app/styles/04-templates/_page.scss */
+
+  .loaded .info-body .info-content:before,
+  .loaded .work-body .work-content:before {
+    width: 56.25vw;
+  }
+}
+
+/* line 449, ../../app/styles/04-templates/_page.scss */
 
 .nav-body .project-title-unit {
   margin-top: 30vh;
 }
 
-/* line 405, ../../app/styles/04-templates/_page.scss */
+/* line 453, ../../app/styles/04-templates/_page.scss */
 
 .info-body .project-title-unit,
 .work-body .project-title-unit {
   margin-top: 2.5rem;
 }
 
-/* line 410, ../../app/styles/04-templates/_page.scss */
+/* line 458, ../../app/styles/04-templates/_page.scss */
 
 .nav-body.page-transition .project-title-unit,
 .info-body.page-transition .project-title-unit,
@@ -7378,7 +10361,7 @@ body {
 
 /* uncss:ignore */
 
-/* line 419, ../../app/styles/04-templates/_page.scss */
+/* line 467, ../../app/styles/04-templates/_page.scss */
 
 [data-trans-in='nav'] .nav-content,
 [data-trans-in='nav'] .nav-content .project-title-unit,
@@ -7392,7 +10375,7 @@ body {
 
 /* uncss:ignore */
 
-/* line 429, ../../app/styles/04-templates/_page.scss */
+/* line 477, ../../app/styles/04-templates/_page.scss */
 
 [data-trans-out='nav'] .nav-content,
 [data-trans-out='nav'] .nav-content .project-title-unit,
@@ -7404,14 +10387,14 @@ body {
   transition-delay: 250ms;
 }
 
-/* line 448, ../../app/styles/04-templates/_page.scss */
+/* line 496, ../../app/styles/04-templates/_page.scss */
 
 .index-body {
   background-color: #303442;
   color: #9297a7;
 }
 
-/* line 455, ../../app/styles/04-templates/_page.scss */
+/* line 503, ../../app/styles/04-templates/_page.scss */
 
 .project-content-overview,
 .project-content-introduction,
@@ -7420,7 +10403,7 @@ body {
   max-width: 28rem;
 }
 
-/* line 464, ../../app/styles/04-templates/_page.scss */
+/* line 512, ../../app/styles/04-templates/_page.scss */
 
 .project-content-overview,
 .project-content-introduction {
@@ -7441,7 +10424,7 @@ body {
   letter-spacing: -0.06em;
 }
 
-/* line 469, ../../app/styles/04-templates/_page.scss */
+/* line 517, ../../app/styles/04-templates/_page.scss */
 
 .project-content-para {
   font-family: Georgia, Times New Roman, sans-serif;
@@ -7451,19 +10434,19 @@ body {
   letter-spacing: 0;
 }
 
-/* line 473, ../../app/styles/04-templates/_page.scss */
+/* line 521, ../../app/styles/04-templates/_page.scss */
 
 .project-content-para:not(:first-of-type) {
   text-indent: 2rem;
 }
 
-/* line 477, ../../app/styles/04-templates/_page.scss */
+/* line 525, ../../app/styles/04-templates/_page.scss */
 
 .project-content-para * {
   text-indent: 0;
 }
 
-/* line 483, ../../app/styles/04-templates/_page.scss */
+/* line 531, ../../app/styles/04-templates/_page.scss */
 
 .project-section {
   width: 68.75vw;
@@ -7478,41 +10461,41 @@ body {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 483, ../../app/styles/04-templates/_page.scss */
+  /* line 531, ../../app/styles/04-templates/_page.scss */
 
   .project-section {
     width: 56.25vw;
   }
 }
 
-/* line 491, ../../app/styles/04-templates/_page.scss */
+/* line 539, ../../app/styles/04-templates/_page.scss */
 
 .project-section:not(:first-of-type) {
   margin-top: 2rem;
 }
 
-/* line 503, ../../app/styles/04-templates/_page.scss */
+/* line 551, ../../app/styles/04-templates/_page.scss */
 
 .project-overview {
   width: 68.75vw;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 503, ../../app/styles/04-templates/_page.scss */
+  /* line 551, ../../app/styles/04-templates/_page.scss */
 
   .project-overview {
     width: 56.25vw;
   }
 }
 
-/* line 511, ../../app/styles/04-templates/_page.scss */
+/* line 559, ../../app/styles/04-templates/_page.scss */
 
 .project-basics {
   margin-top: 1.75rem;
   min-height: 50vh;
 }
 
-/* line 516, ../../app/styles/04-templates/_page.scss */
+/* line 564, ../../app/styles/04-templates/_page.scss */
 
 .project-section-header {
   font-family: Helvetica, Arial, sans-serif;
@@ -7532,7 +10515,7 @@ body {
 }
 
 @media screen and (min-width: 640px) {
-  /* line 516, ../../app/styles/04-templates/_page.scss */
+  /* line 564, ../../app/styles/04-templates/_page.scss */
 
   .project-section-header {
     font-family: Helvetica, Arial, sans-serif;
@@ -7552,7 +10535,7 @@ body {
   }
 }
 
-/* line 523, ../../app/styles/04-templates/_page.scss */
+/* line 571, ../../app/styles/04-templates/_page.scss */
 
 .project-section-header:before {
   position: absolute;
@@ -7564,7 +10547,7 @@ body {
   z-index: -1;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-section-header:after {
   content: " ";
@@ -7580,38 +10563,38 @@ body {
   opacity: 0.125;
 }
 
-/* line 548, ../../app/styles/04-templates/_page.scss */
+/* line 596, ../../app/styles/04-templates/_page.scss */
 
 .project-section-image + .project-section-image {
   margin-top: 1px;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .body {
   background-color: #303442;
   color: #9297a7;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
 .body .project-section-background-image ~ header .project-section-header {
   color: #f4373b;
 }
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
 .body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(48, 52, 66, 0.125);
 }
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
 .body .project-content-para a {
   display: inline-block;
@@ -7619,7 +10602,7 @@ body {
   text-shadow: 0.03em 0 #303442, -0.03em 0 #303442, 0 0.03em #303442, 0 -0.03em #303442, 0.06em 0 #303442, -0.06em 0 #303442, 0.09em 0 #303442, -0.09em 0 #303442, 0.12em 0 #303442, -0.12em 0 #303442;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .body .project-content-para a:after {
   content: " ";
@@ -7634,19 +10617,19 @@ body {
   z-index: -1;
 }
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
 .body .project-content-para a:hover {
   color: #f4373b;
 }
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content {
   color: #f4373b;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .project-load-content:after {
   content: " ";
@@ -7659,19 +10642,19 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .project-load-content:before {
   color: #303442;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 -body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .intro-body,
 .intro.body {
@@ -7679,25 +10662,25 @@ body {
   color: #9297a7;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content {
   color: #f4373b;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .intro .project-load-content:after {
   content: " ";
@@ -7710,19 +10693,85 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .intro .project-load-content:before {
   color: #303442;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .intro-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
+
+.roh-body,
+.roh.body {
+  background-color: #F6F6F6;
+  color: #191919;
+}
+
+/* line 623, ../../app/styles/04-templates/_page.scss */
+
+.roh-body .project-section:not(:first-of-type),
+.roh.body .project-section:not(:first-of-type) {
+  background-color: #F6F6F6;
+}
+
+/* line 627, ../../app/styles/04-templates/_page.scss */
+
+.roh-body .project-section-background-image ~ header .project-section-header,
+.roh.body .project-section-background-image ~ header .project-section-header {
+  color: #191919;
+}
+
+/* line 630, ../../app/styles/04-templates/_page.scss */
+
+.roh-body .project-section-background-image ~ header .project-section-header:before,
+.roh.body .project-section-background-image ~ header .project-section-header:before {
+  background-color: rgba(246, 246, 246, 0.125);
+}
+
+/* line 636, ../../app/styles/04-templates/_page.scss */
+
+/* line 192, ../../app/styles/00-base/_utils.scss */
+
+/* line 648, ../../app/styles/04-templates/_page.scss */
+
+/* line 654, ../../app/styles/04-templates/_page.scss */
+
+.roh .project-load-content {
+  color: #C21B35;
+}
+
+/* line 192, ../../app/styles/00-base/_utils.scss */
+
+.roh .project-load-content:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(194, 27, 53, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 662, ../../app/styles/04-templates/_page.scss */
+
+.roh .project-load-content:before {
+  color: #F6F6F6;
+}
+
+/* line 666, ../../app/styles/04-templates/_page.scss */
+
+.roh-body:not(.page-transition) .nav-content {
+  display: none;
+}
+
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body,
 .redburn.body {
@@ -7730,40 +10779,40 @@ body {
   color: #fff;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section:not(:first-of-type),
 .redburn.body .project-section:not(:first-of-type) {
   background-color: #191919;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section-background-image ~ header .project-section-header,
 .redburn.body .project-section-background-image ~ header .project-section-header {
   color: #fff;
 }
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body .project-section-background-image ~ header .project-section-header:before,
 .redburn.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(25, 25, 25, 0.125);
 }
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content {
   color: #3E8EDE;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .redburn .project-load-content:after {
   content: " ";
@@ -7776,19 +10825,19 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .redburn .project-load-content:before {
   color: #191919;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .redburn-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .audiences-body,
 .audiences.body {
@@ -7796,30 +10845,30 @@ body {
   color: #fff;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .audiences-body .project-section:not(:first-of-type),
 .audiences.body .project-section:not(:first-of-type) {
   background-color: #292935;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .audiences .project-load-content {
   color: #46dd8e;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .audiences .project-load-content:after {
   content: " ";
@@ -7832,19 +10881,19 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .audiences .project-load-content:before {
   color: #292935;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .audiences-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body,
 .national-theatre.body {
@@ -7852,28 +10901,28 @@ body {
   color: #ff6;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section:not(:first-of-type),
 .national-theatre.body .project-section:not(:first-of-type) {
   background-color: #303442;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section-background-image ~ header .project-section-header,
 .national-theatre.body .project-section-background-image ~ header .project-section-header {
   color: #ff6;
 }
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-section-background-image ~ header .project-section-header:before,
 .national-theatre.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(48, 52, 66, 0.125);
 }
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a,
 .national-theatre.body .project-content-para a {
@@ -7882,7 +10931,7 @@ body {
   text-shadow: 0.03em 0 #303442, -0.03em 0 #303442, 0 0.03em #303442, 0 -0.03em #303442, 0.06em 0 #303442, -0.06em 0 #303442, 0.09em 0 #303442, -0.09em 0 #303442, 0.12em 0 #303442, -0.12em 0 #303442;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .national-theatre-body .project-content-para a:after,
 .national-theatre.body .project-content-para a:after {
@@ -7898,20 +10947,20 @@ body {
   z-index: -1;
 }
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body .project-content-para a:hover,
 .national-theatre.body .project-content-para a:hover {
   color: #E6C4C4;
 }
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content {
   color: #E6C4C4;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .national-theatre .project-load-content:after {
   content: " ";
@@ -7924,19 +10973,19 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre .project-load-content:before {
   color: #303442;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .national-theatre-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body,
 .eavis.body {
@@ -7944,28 +10993,28 @@ body {
   color: #fff;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section:not(:first-of-type),
 .eavis.body .project-section:not(:first-of-type) {
   background-color: #222222;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section-background-image ~ header .project-section-header,
 .eavis.body .project-section-background-image ~ header .project-section-header {
   color: #fff;
 }
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-section-background-image ~ header .project-section-header:before,
 .eavis.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(34, 34, 34, 0.125);
 }
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a,
 .eavis.body .project-content-para a {
@@ -7974,7 +11023,7 @@ body {
   text-shadow: 0.03em 0 #222222, -0.03em 0 #222222, 0 0.03em #222222, 0 -0.03em #222222, 0.06em 0 #222222, -0.06em 0 #222222, 0.09em 0 #222222, -0.09em 0 #222222, 0.12em 0 #222222, -0.12em 0 #222222;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .eavis-body .project-content-para a:after,
 .eavis.body .project-content-para a:after {
@@ -7990,20 +11039,20 @@ body {
   z-index: -1;
 }
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body .project-content-para a:hover,
 .eavis.body .project-content-para a:hover {
   color: #36e2ae;
 }
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content {
   color: #36e2ae;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .eavis .project-load-content:after {
   content: " ";
@@ -8016,19 +11065,19 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .eavis .project-load-content:before {
   color: #222222;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .eavis-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .android-body,
 .android.body {
@@ -8036,28 +11085,28 @@ body {
   color: #00FF8D;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section:not(:first-of-type),
 .android.body .project-section:not(:first-of-type) {
   background-color: #141926;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section-background-image ~ header .project-section-header,
 .android.body .project-section-background-image ~ header .project-section-header {
   color: #00FF8D;
 }
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-section-background-image ~ header .project-section-header:before,
 .android.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(20, 25, 38, 0.125);
 }
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a,
 .android.body .project-content-para a {
@@ -8066,7 +11115,7 @@ body {
   text-shadow: 0.03em 0 #141926, -0.03em 0 #141926, 0 0.03em #141926, 0 -0.03em #141926, 0.06em 0 #141926, -0.06em 0 #141926, 0.09em 0 #141926, -0.09em 0 #141926, 0.12em 0 #141926, -0.12em 0 #141926;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .android-body .project-content-para a:after,
 .android.body .project-content-para a:after {
@@ -8082,20 +11131,20 @@ body {
   z-index: -1;
 }
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
 .android-body .project-content-para a:hover,
 .android.body .project-content-para a:hover {
   color: #00FF8D;
 }
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content {
   color: #00FF8D;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .android .project-load-content:after {
   content: " ";
@@ -8108,19 +11157,19 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .android .project-load-content:before {
   color: #141926;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .android-body:not(.page-transition) .nav-content {
   display: none;
 }
 
-/* line 569, ../../app/styles/04-templates/_page.scss */
+/* line 617, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body,
 .guardian.body {
@@ -8128,28 +11177,28 @@ body {
   color: #fff;
 }
 
-/* line 575, ../../app/styles/04-templates/_page.scss */
+/* line 623, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section:not(:first-of-type),
 .guardian.body .project-section:not(:first-of-type) {
   background-color: #15296B;
 }
 
-/* line 579, ../../app/styles/04-templates/_page.scss */
+/* line 627, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section-background-image ~ header .project-section-header,
 .guardian.body .project-section-background-image ~ header .project-section-header {
   color: #fff;
 }
 
-/* line 582, ../../app/styles/04-templates/_page.scss */
+/* line 630, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-section-background-image ~ header .project-section-header:before,
 .guardian.body .project-section-background-image ~ header .project-section-header:before {
   background-color: rgba(21, 41, 107, 0.125);
 }
 
-/* line 588, ../../app/styles/04-templates/_page.scss */
+/* line 636, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a,
 .guardian.body .project-content-para a {
@@ -8158,7 +11207,7 @@ body {
   text-shadow: 0.03em 0 #15296B, -0.03em 0 #15296B, 0 0.03em #15296B, 0 -0.03em #15296B, 0.06em 0 #15296B, -0.06em 0 #15296B, 0.09em 0 #15296B, -0.09em 0 #15296B, 0.12em 0 #15296B, -0.12em 0 #15296B;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .guardian-body .project-content-para a:after,
 .guardian.body .project-content-para a:after {
@@ -8174,20 +11223,20 @@ body {
   z-index: -1;
 }
 
-/* line 600, ../../app/styles/04-templates/_page.scss */
+/* line 648, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body .project-content-para a:hover,
 .guardian.body .project-content-para a:hover {
   color: #17a3e2;
 }
 
-/* line 606, ../../app/styles/04-templates/_page.scss */
+/* line 654, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content {
   color: #17a3e2;
 }
 
-/* line 190, ../../app/styles/00-base/_utils.scss */
+/* line 192, ../../app/styles/00-base/_utils.scss */
 
 .guardian .project-load-content:after {
   content: " ";
@@ -8200,13 +11249,13 @@ body {
   left: 0;
 }
 
-/* line 614, ../../app/styles/04-templates/_page.scss */
+/* line 662, ../../app/styles/04-templates/_page.scss */
 
 .guardian .project-load-content:before {
   color: #15296B;
 }
 
-/* line 618, ../../app/styles/04-templates/_page.scss */
+/* line 666, ../../app/styles/04-templates/_page.scss */
 
 .guardian-body:not(.page-transition) .nav-content {
   display: none;
@@ -8246,4 +11295,20 @@ body {
 
 .android.project-title .pull-A {
   margin-left: 0;
+}
+
+@supports (mix-blend-mode: screen) {
+  /* line 60, ../../app/styles/02-molecules/_project-background-image.scss */
+
+  .roh .project-background-image:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -10rem;
+    left: 0;
+    content: " ";
+    background-color: inherit;
+    mix-blend-mode: darken;
+    z-index: 1;
+  }
 }
